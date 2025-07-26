@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# 🌸 ElysiaOS DOTFILES 2.0 Launch 🌸
+# 🌸 ElysiaOS 2.0 Launch 🌸
 # You can now Download the entire OS and install with the ISO
 # https://sourceforge.net/projects/elysiaos
 
