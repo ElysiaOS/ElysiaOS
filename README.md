@@ -7,6 +7,8 @@
 <div align="center">
 
 # 🌸 ElysiaOS DOTFILES 2.0 Launch 🌸
+# You can now Download the entire OS and install with the ISO
+# https://sourceforge.net/projects/elysiaos
 
 <h2><sub><img src="assets/signet.png" alt="Elysia Signet" width="25" height="25" /></sub> Light Theme</h2>
 <table align="center">
@@ -88,7 +90,7 @@ cd ElysiaOS
 chmod +x install.sh
 ./install.sh
 ```
-### PACKAGES INCLUDED
+### PACKAGES NEEDED
 ```
 yay -S --noconfirm waybar-cava thunar hyprland starship rofi swaync discord krita google-chrome eww wlogout swww eww kitty kew swayosd btop fastfetch hyprcursor hyprgraphics hypridle hyprland-qt-support hyprlock hyprpicker hyprutils hyprswitch xdg-desktop-portal-hyprland xdg-desktop-portal-gnome gnome-text-editor xdg-desktop-portal xfce4-settings xfce4-taskmanager gsettings-desktop-schemas gsettings-system-schemas qt5-base qt5-multimedia qt5-svg qt5-wayland qt5ct qt6-base qt6-wayland qt6ct zip libzip file-roller unzip thunar-archive-plugin noto-fonts ttf-jetbrains-mono-nerd auto-cpufreq sddm-eucalyptus-drop swaylock-effects python python-cairo python-installer python-numpy python-pillow python-pip python-pipx python-psutil python-pyqt6 python-pyqt5 python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm visual-studio-code-bin sublime-text-4 grim xclip wl-clipboard libnotify clipnotify copyq gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification playerctl xkb-switch
 ```
@@ -106,16 +108,23 @@ yay -S --noconfirm waybar-cava thunar hyprland starship rofi swaync discord krit
 | <kbd>Super</kbd> + <kbd>[0-9]</kbd> | Switch workspaces |
 | <kbd>Super</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd> | Workspaces viewer Hyprspace |
 | <kbd>Super</kbd> + <kbd>W</kbd> | Opens Swaync Notifaction |
-| <kbd>Super</kbd> + <kbd>TAB</kbd> | Widget for system info |
+| <kbd>Super</kbd> + <kbd>TAB</kbd> | EWW Widget for system info |
 | <kbd>Super</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd> | Launches Wallpapers menu |
 | <kbd>Super</kbd> + <kbd>SHIFT</kbd> + <kbd>M</kbd> | Exit Hyprland alltogether |
 | <kbd>Super</kbd> + <kbd>V</kbd> | Toggle float a window |
 | <kbd>Super</kbd> + <kbd>D</kbd> | Launch text editor VSCODE |
 | <kbd>Super</kbd> + <kbd>E</kbd> | Launch File manager Thunar |
-| <kbd>Super</kbd> + <kbd>O</kbd> | Launch Floorp |
+| <kbd>Super</kbd> + <kbd>O</kbd> | Launch Floorp Browser |
 | <kbd>Super</kbd> + <kbd>D</kbd> | Launch text editor VSCODE |
 | <kbd>Super</kbd> + <kbd>PRINTSC</kbd> | Take a full screenshot |
 | <kbd>Super</kbd> + <kbd>S</kbd> | Take a region screenshot |
+| <kbd>F1</kbd>| MUTE Volume |
+| <kbd>F6</kbd>| Lower Brightness |
+| <kbd>F7</kbd>| Lower Brightness |
+| <kbd>FN</kbd> + <kbd>F2</kbd> | Lower Volume |
+| <kbd>FN</kbd> + <kbd>F3</kbd> | Higher Volume |
+| <kbd>FN</kbd> + <kbd>F4</kbd> | MUTE Microphone |
+
 
 </div>
 
@@ -155,5 +164,11 @@ yay -S --noconfirm waybar-cava thunar hyprland starship rofi swaync discord krit
 - [ ] Future Elysia AI Assistant
 - [ ] Improve Dashboard (possibly moving from eww to my new featured GTK dashboard?)
 - [ ] Adding more Themes support in future for every app
+
+<h2><sub><img src="assets/eri.png" alt="Eri" width="25" height="25" /></sub> Special Thanks ♪</h2>
+
+- [Some of the Folder icons](https://ko-fi.com/s/e3be105b94)
+- [Main Floorp theme idea](https://github.com/Shina-SG/Shina-Fox)
+- And Everyone else who tested and reported issues and bugs!!
 
 </div>

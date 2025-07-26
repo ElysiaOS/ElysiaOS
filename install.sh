@@ -89,7 +89,7 @@ PACKAGES=(
   python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm
   gpu-screen-recorder-notification playerctl xkb-switch brightnessctl
   pipewire-pulse ttf-jetbrains-mono swaync-elysiaos granite
-  qimgv sxiv granite7 libhandy
+  qimgv sxiv granite7 libhandy python-pypresence
   xorg-xhost polkit-gnome polkit-qt6 gnome-terminal
   ffmpegthumbnailer tumbler slurp bc coreutils dmenu
   ttf-dejavu ttf-ubuntu-font-family ttf-doulos-sil ttf-hanazono
