@@ -47,11 +47,11 @@
       "actions": [
         {
           "label": " ",
-          "command": "/home/matsuko/.config/rofi/scripts/rofi-wifi-menu.sh & swaync-client -cp"
+          "command": "network_manager && swaync-client -cp"
         },
         {
           "label": "󰂯",
-          "command": "/home/matsuko/.config/rofi/scripts/bluetooth.sh & swaync-client -cp"
+          "command": "~/bin/elysettings && swaync-client -cp"
         },
         {
           "label": "",

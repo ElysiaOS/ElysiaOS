@@ -1,28 +1,14 @@
 #!/bin/bash
 
-# Prevent multiple instances
-if pgrep -f "update.py" > /dev/null; then
-    echo "Elysia Updater is already running."
-    exit 1
+# Fix DISPLAY and DBUS for .desktop launches
+SESSION_PID=$(pgrep -u "$USER" -x waybar || pgrep -u "$USER" -x hyprland || pgrep -u "$USER" -x gnome-session | head -n1)
+
+if [[ -n "$SESSION_PID" ]]; then
+    ENVFILE="/proc/$SESSION_PID/environ"
+    export DISPLAY=$(tr '\0' '\n' < "$ENVFILE" | grep ^DISPLAY= | cut -d= -f2-)
+    export DBUS_SESSION_BUS_ADDRESS=$(tr '\0' '\n' < "$ENVFILE" | grep ^DBUS_SESSION_BUS_ADDRESS= | cut -d= -f2-)
+    export XAUTHORITY=$(tr '\0' '\n' < "$ENVFILE" | grep ^XAUTHORITY= | cut -d= -f2-)
 fi
 
-# Detect real user
-REAL_USER=$(logname)
-REAL_HOME=$(eval echo "~$REAL_USER")
-
-# Get GTK theme (optional)
-GTK_THEME=$(sudo -u "$REAL_USER" DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u "$REAL_USER" gnome-session | head -n 1)/environ 2>/dev/null | tr '\0' '\n' | grep DBUS_SESSION_BUS_ADDRESS= | cut -d= -f2-) \
-    gsettings get org.gnome.desktop.interface gtk-theme | tr -d "'")
-
-# Allow root to access X session
-xhost +SI:localuser:root
-
-# Launch your app with proper environment
-pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY \
-    QT_QPA_PLATFORMTHEME=qt5ct \
-    GTK_THEME="$GTK_THEME" \
-    REAL_HOME="$REAL_HOME" \
-    ~/Elysia/assets/ElysiaUpdater
-
-# Revoke access after exit
-xhost -SI:localuser:root
+# Run the real launcher
+exec ~/.config/Elysia/assets/elyupdate

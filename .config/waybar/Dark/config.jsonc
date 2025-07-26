@@ -101,8 +101,8 @@
     "custom/pic": {
         "format": "           ",
         "tooltip-format": "Right click for wallpaper menu",
-        "on-click": "~/Elysia/wallpaper/wallpaper.sh",
-        "on-click-right": "~/Elysia/wallpaper/Dark/d-rofi-wallpaper.sh"
+        "on-click": "~/.config/Elysia/wallpaper/wallpaper.sh",
+        "on-click-right": "~/.config/Elysia/wallpaper/Dark/d-rofi-wallpaper.sh"
     },
     "custom/workelysia": {
         "format": "     ",
@@ -240,7 +240,7 @@
         "tooltip": false,
         "on-click": "wlogout",
         "on-click-right": "~/bin/about_system",
-        "on-click-middle": "~/Elysia/Theme.sh"
+        "on-click-middle": "~/.config/Elysia/Theme.sh"
     },
     "custom/swaync": {
         "format": "      ",
@@ -299,7 +299,7 @@
     "exec": "~/.config/waybar/Scripts/sys.sh",
     "return-type": "json",
     "format": "{}",
-    "on-click": "~/Elysia/elysettings",
+    "on-click": "~/.config/Elysia/elysettings",
     "interval": 2
     },
     "custom/kew": {

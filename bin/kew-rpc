@@ -3,4 +3,4 @@
 python -m venv ~/myenv
 source ~/myenv/bin/activate
 
-python3 ~/Scripts/kew-rpc.py
+python3 ~/.config/Elysia/kew-rpc.py

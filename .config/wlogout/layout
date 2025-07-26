@@ -30,7 +30,7 @@
 }
 {
     "label" : "elyhoc",
-    "action" : "~/Elysia/Theme.sh",
+    "action" : "~/.config/Elysia/Theme.sh",
     "text" : "Theme",
     "keybind" : "*"
 }

@@ -70,7 +70,7 @@ fi
 echo "[+] Installing packages with yay..."
 
 PACKAGES=(
-  waybar-cava thunar hyprland starship swaync discord obs krita
+  waybar thunar hyprland starship swaync discord krita
   eww wlogout swww kitty swayosd btop fastfetch
   hyprcursor hyprgraphics hypridle hyprland-qt-support
   hyprlock hyprpicker hyprutils hyprswitch
@@ -78,7 +78,7 @@ PACKAGES=(
   xdg-desktop-portal xfce4-settings xfce4-taskmanager
   gsettings-desktop-schemas gsettings-system-schemas
   qt5-base qt5-multimedia qt5-svg qt5-wayland qt5ct
-  qt6-base qt6-wayland qt6ct noto-fonts
+  qt6-base qt6-wayland qt6ct noto-fonts downgrade
   visual-studio-code-bin sublime-text-4 grim xclip wl-clipboard
   libnotify clipnotify copyq playerctl brightnessctl
   zip libzip file-roller unzip thunar-archive-plugin
@@ -87,6 +87,16 @@ PACKAGES=(
   python-psutil python-pyqt6 python-pyqt5 ttf-jetbrains-mono-nerd
   gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification
   python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm
+  gpu-screen-recorder-notification playerctl xkb-switch brightnessctl
+  pipewire-pulse ttf-jetbrains-mono swaync-elysiaos granite
+  qimgv sxiv granite7 libhandy
+  xorg-xhost polkit-gnome polkit-qt6 gnome-terminal
+  ffmpegthumbnailer tumbler slurp bc coreutils dmenu
+  ttf-dejavu ttf-ubuntu-font-family ttf-doulos-sil ttf-hanazono
+  ttf-sazanami ttf-baekmuk ttf-arphic-uming
+  noto-fonts-cjk noto-fonts-emoji ttf-firacode-nerd
+  fcitx5 fcitx5-configtool fcitx5-mozc mpv
+  ffmpeg gst-libav qt6-multimedia-ffmpeg gparted
 )
 
 yay -S --noconfirm --needed "${PACKAGES[@]}" || {
@@ -175,9 +185,26 @@ if [[ -f ~/bin/rofi ]]; then
     sudo cp ~/bin/rofi /usr/bin/
 fi
 
+sudo cp "$HOME/bin/wallpaper-switch.sh" /usr/bin/
+sudo cp "$HOME/bin/network_manager" /usr/local/bin/
+sudo cp "$HOME/bin/elysia-updater.sh" /usr/local/bin/
+sudo cp "$HOME/bin/elysettings" /usr/local/bin/
+sudo cp -r "$HOME/fonts" /usr/share/
+sudo cp "$HOME/services/wallpaper-auto.service" /etc/systemd/user/
+sudo cp "$HOME/services/wallpaper-auto.timer" /etc/systemd/user/
+sudo cp "$HOME/services/floorp.desktop" /usr/share/applications/
+sudo cp "$HOME/services/elysettings.desktop" /usr/share/applications/
+sudo cp "$HOME/services/elyupdater.desktop" /usr/share/applications/
+
+echo "[+] Setting up Services..."
+
+systemctl --user enable pipewire wireplumber pipewire-pulse
+systemctl --user enable wallpaper-auto.timer
+systemctl --user enable wallpaper-auto.service
+
+
 # Fix ownership
 sudo chown -R "$USER:$USER" "$HOME"
-sudo chown -R "$USER:$USER" "$HOME/Elysia"
 
 # === Package Install Section ===
 echo "[+] Changing themes..."
@@ -328,6 +355,8 @@ echo "[+] Cleaning up files from home directory..."
 rm -rf "$HOME/SDDM" \
        "$HOME/GRUB-THEME" \
        "$HOME/assets" \
+       "$HOME/services" \
+       "$HOME/fonts" \
        "$HOME/plymouth" \
        "$HOME/elylogo.png" \
        "$HOME/README.md"

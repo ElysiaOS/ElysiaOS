@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Prevent multiple instances
+if pgrep -f "ElysiaUpdater" > /dev/null; then
+    echo "Elysia Updater is already running."
+    exit 1
+fi
+
+REAL_USER=$(logname)
+REAL_HOME=$(eval echo "~$REAL_USER")
+
+GTK_THEME=$(sudo -u "$REAL_USER" DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" \
+    gsettings get org.gnome.desktop.interface gtk-theme 2>/dev/null | tr -d "'")
+
+xhost +SI:localuser:root
+
+pkexec env DISPLAY="$DISPLAY" XAUTHORITY="$XAUTHORITY" \
+    DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" \
+    QT_QPA_PLATFORMTHEME=qt5ct \
+    GTK_THEME="$GTK_THEME" \
+    REAL_HOME="$REAL_HOME" \
+    ~/.config/Elysia/assets/ElysiaUpdater
+
+xhost -SI:localuser:root

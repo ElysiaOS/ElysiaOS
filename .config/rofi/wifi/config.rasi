@@ -1,0 +1,4 @@
+@theme "~/.config/rofi/wifi/themes/transparent.rasi"
+	conordnfiguration {
+	terminal: "kitty";
+	}

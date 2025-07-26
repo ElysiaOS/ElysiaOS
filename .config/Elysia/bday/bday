@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Define the birthday notification and WAV sound file
+BIRTHDAY_SOUND="$HOME/.config/Elysia/bday/ely_bday.wav"
+BIRTHDAY_IMAGE="$HOME/.config/Elysia/bday/ely1.png"
+STARTUP_IMAGE="$HOME/.config/Elysia/bday/startup.jpg"
+INI_FILE="$HOME/.config/Elysia/bday/birthday.ini"
+
+# Function to send a notification
+send_notification() {
+    local title="$1"
+    local message="$2"
+    notify-send "$title" "$message" -i "$BIRTHDAY_IMAGE"
+}
+
+# If the script is run with a new date, update the birthday in the INI file
+if [[ -n "$1" ]]; then
+    BIRTHDAY_DATE="$1"
+    
+    # Validate the new date format
+    if [[ ! "$BIRTHDAY_DATE" =~ ^[0-9]{2}/[0-9]{2}$ ]]; then
+        echo "Invalid date format. Please use MM/DD format."
+        exit 1
+    fi
+
+    # Update the INI file with the new birthday
+    echo "birthday=$BIRTHDAY_DATE" > "$INI_FILE"
+    send_notification "Elysia" "Birthday set to $BIRTHDAY_DATE"
+    exit 0
+fi
+
+# Check if the INI file exists
+if [[ ! -f "$INI_FILE" ]]; then
+    # If no INI file, prompt for a birthday
+    echo "No birthday set. Please provide a birthday in MM/DD format."
+    exit 1
+else
+    # Read the birthday date from the INI file
+    BIRTHDAY_DATE=$(grep -oP '^birthday=\K.*' "$INI_FILE")
+    
+    # Get today's date in MM/DD format
+    TODAY=$(date +%m/%d)
+    
+    if [[ "$TODAY" == "$BIRTHDAY_DATE" ]]; then
+        notify-send "Elysia" "Starting ElysiaOS" -i "$STARTUP_IMAGE"
+        sleep 1
+        send_notification "Elysia" "Happy Birthday, $(whoami)!"
+        # Play the birthday sound
+        paplay "$BIRTHDAY_SOUND"
+    else
+        sleep 0.5
+        echo "Today's date is not your birthday."
+        notify-send "Elysia" "Starting ElysiaOS" -i "$STARTUP_IMAGE"
+    fi
+fi

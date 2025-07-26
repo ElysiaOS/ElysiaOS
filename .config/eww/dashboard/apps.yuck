@@ -1,7 +1,7 @@
     (defwidget sys_side [] 
       (box :orientation "h" :space-evenly "false" 
         (box :orientation "h" :halign "center" :class "sysbtn" :space-evenly "true" 
-          (button :class "theme-change" :onclick "~/Elysia/Theme.sh & eww close-all" :timeout "60s" "")
+          (button :class "theme-change" :onclick "~/.config/Elysia/Theme.sh & eww close-all" :timeout "60s" "")
           (button :class "moonlight-side" :onclick "flatpak run com.moonlight_stream.Moonlight & eww close-all" :timeout "60s" "")
           (button :class "stargame-side" :onclick "~/Scripts/stargame.sh & eww close-all" :timeout "60s" "")
           (button :class "re1999-side" :onclick "~/Scripts/re1999.sh & eww close-all" :timeout "60s" "")

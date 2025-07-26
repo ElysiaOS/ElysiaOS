@@ -1,0 +1,8 @@
+[Unit]
+Description=Change wallpaper with swww
+Wants=wallpaper-auto.timer
+
+[Service]
+ExecStart=wallpaper-switch.sh
+StandardOutput=journal
+StandardError=journal

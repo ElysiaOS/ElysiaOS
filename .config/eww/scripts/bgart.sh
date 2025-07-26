@@ -2,7 +2,7 @@
 
 # Configuration
 TMP_DIR="$HOME/.cache/eww"
-IMAGE_DIR="$HOME/Elysia/Art"
+IMAGE_DIR="$HOME/.config/Elysia/Art"
 CACHE_FILE="$TMP_DIR/.dashboard_cache"  # Cache file where we store the current image path
 
 # Ensure TMP_DIR exists
