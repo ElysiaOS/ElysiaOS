@@ -1,0 +1,113 @@
+main.config_file_version 2
+main.hotkeys_enable_option enable_hotkeys
+main.joystick_hotkeys_enable_option disable_hotkeys
+main.show_hide_hotkey 26 16
+main.software_encoding_warning_shown false
+main.tint_color amd
+record.container mp4
+record.pause_unpause_hotkey 92 16
+record.record_options.advanced_view false
+record.record_options.application_audio_invert false
+record.record_options.audio_codec opus
+record.record_options.audio_track_item false [add_audio_track]
+record.record_options.audio_track_item false default_output
+record.record_options.change_video_resolution false
+record.record_options.codec auto
+record.record_options.color_range limited
+record.record_options.fps 60
+record.record_options.framerate_mode auto
+record.record_options.merge_audio_tracks true
+record.record_options.overclock false
+record.record_options.record_area_height 0
+record.record_options.record_area_option focused_monitor
+record.record_options.record_area_width 0
+record.record_options.record_cursor true
+record.record_options.restore_portal_session true
+record.record_options.video_bitrate 40000
+record.record_options.video_height 0
+record.record_options.video_quality very_high
+record.record_options.video_width 0
+record.save_directory /home/matsy/Videos
+record.save_video_in_game_folder false
+record.show_recording_started_notifications true
+record.show_video_paused_notifications true
+record.show_video_saved_notifications true
+record.start_stop_hotkey 94 16
+replay.container mp4
+replay.record_options.advanced_view false
+replay.record_options.application_audio_invert false
+replay.record_options.audio_codec opus
+replay.record_options.audio_track_item false [add_audio_track]
+replay.record_options.audio_track_item false default_output
+replay.record_options.change_video_resolution false
+replay.record_options.codec auto
+replay.record_options.color_range limited
+replay.record_options.fps 60
+replay.record_options.framerate_mode auto
+replay.record_options.merge_audio_tracks true
+replay.record_options.overclock false
+replay.record_options.record_area_height 0
+replay.record_options.record_area_option focused_monitor
+replay.record_options.record_area_width 0
+replay.record_options.record_cursor true
+replay.record_options.restore_portal_session true
+replay.record_options.video_bitrate 40000
+replay.record_options.video_height 0
+replay.record_options.video_quality custom
+replay.record_options.video_width 0
+replay.replay_storage ram
+replay.restart_replay_on_save false
+replay.save_10_min_hotkey 97 16
+replay.save_1_min_hotkey 96 16
+replay.save_directory /home/matsy/Videos
+replay.save_hotkey 95 16
+replay.save_video_in_game_folder false
+replay.show_replay_saved_notifications true
+replay.show_replay_started_notifications true
+replay.show_replay_stopped_notifications true
+replay.start_stop_hotkey 95 17
+replay.time 60
+replay.turn_on_replay_automatically_mode dont_turn_on_automatically
+screenshot.change_image_resolution false
+screenshot.image_format jpg
+screenshot.image_height 0
+screenshot.image_quality very_high
+screenshot.image_width 0
+screenshot.record_area_option focused_monitor
+screenshot.record_cursor true
+screenshot.restore_portal_session true
+screenshot.save_directory /home/matsy/Pictures
+screenshot.save_screenshot_in_game_folder false
+screenshot.show_screenshot_saved_notifications true
+screenshot.take_screenshot_hotkey 67 32
+screenshot.take_screenshot_region_hotkey 102 4
+streaming.custom.container flv
+streaming.custom.url 
+streaming.record_options.advanced_view false
+streaming.record_options.application_audio_invert false
+streaming.record_options.audio_codec opus
+streaming.record_options.audio_track_item false [add_audio_track]
+streaming.record_options.audio_track_item false default_output
+streaming.record_options.change_video_resolution false
+streaming.record_options.codec auto
+streaming.record_options.color_range limited
+streaming.record_options.fps 60
+streaming.record_options.framerate_mode auto
+streaming.record_options.merge_audio_tracks true
+streaming.record_options.overclock false
+streaming.record_options.record_area_height 0
+streaming.record_options.record_area_option focused_monitor
+streaming.record_options.record_area_width 0
+streaming.record_options.record_cursor true
+streaming.record_options.restore_portal_session true
+streaming.record_options.video_bitrate 8000
+streaming.record_options.video_height 0
+streaming.record_options.video_quality custom
+streaming.record_options.video_width 0
+streaming.rumble.key 
+streaming.service twitch
+streaming.show_streaming_started_notifications true
+streaming.show_streaming_stopped_notifications true
+streaming.start_stop_hotkey 93 16
+streaming.twitch.key 
+streaming.youtube.key 
