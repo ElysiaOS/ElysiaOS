@@ -7,7 +7,7 @@
 <div align="center">
 
 # 🌸 ElysiaOS 2.0 Launch 🌸
-# You can now Download the entire OS and install with the ISO
+# You can now Download the entire OS and install with the ISO, you have to turn off Secure boot to install.
 # https://sourceforge.net/projects/elysiaos
 
 <h2><sub><img src="assets/signet.png" alt="Elysia Signet" width="25" height="25" /></sub> Light Theme</h2>
