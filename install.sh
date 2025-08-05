@@ -226,6 +226,51 @@ else
     echo "[✓] Plymouth is already installed."
 fi
 
+# === List available kernels and let user choose ===
+echo "[+] Available Linux kernels:"
+AVAILABLE_KERNELS=($(ls /boot | grep vmlinuz | sed 's/vmlinuz-//g'))
+
+if [ ${#AVAILABLE_KERNELS[@]} -eq 0 ]; then
+    echo "[-] No kernels found in /boot. Cannot proceed."
+    exit 1
+fi
+
+for i in "${!AVAILABLE_KERNELS[@]}"; do
+    echo "$((i+1)). ${AVAILABLE_KERNELS[i]}"
+done
+
+echo ""
+
+# Loop until user provides valid input
+while true; do
+    read -p "Please select a kernel by number or type the kernel name: " KERNEL_CHOICE
+    
+    # Validate user input
+    if [[ "$KERNEL_CHOICE" =~ ^[0-9]+$ ]]; then
+        # User entered a number
+        KERNEL_INDEX=$((KERNEL_CHOICE-1))
+        if [ $KERNEL_INDEX -ge 0 ] && [ $KERNEL_INDEX -lt ${#AVAILABLE_KERNELS[@]} ]; then
+            SELECTED_KERNEL="${AVAILABLE_KERNELS[$KERNEL_INDEX]}"
+            break
+        else
+            echo "[-] Invalid selection. Try again and type correct one from the list."
+            continue
+        fi
+    else
+        # User entered a kernel name
+        SELECTED_KERNEL="$KERNEL_CHOICE"
+        # Verify the kernel exists
+        if [[ " ${AVAILABLE_KERNELS[@]} " =~ " ${SELECTED_KERNEL} " ]]; then
+            break
+        else
+            echo "[-] Kernel '$SELECTED_KERNEL' not found. Try again and type correct one from the list."
+            continue
+        fi
+    fi
+done
+
+echo "[✓] Selected kernel: $SELECTED_KERNEL"
+
 # === Edit mkinitcpio.conf to add plymouth ===
 MKINITCONF="/etc/mkinitcpio.conf"
 if ! grep -E "^HOOKS\s*=.*\bplymouth\b" "$MKINITCONF"; then
@@ -236,8 +281,8 @@ else
 fi
 
 # === Rebuild initramfs ===
-echo "[+] Rebuilding initramfs with mkinitcpio..."
-sudo mkinitcpio -p linux
+echo "[+] Rebuilding initramfs with mkinitcpio for kernel: $SELECTED_KERNEL..."
+sudo mkinitcpio -p "$SELECTED_KERNEL"
 
 # === Copy Plymouth Theme ===
 echo "[+] Installing Plymouth theme..."
@@ -250,7 +295,6 @@ EXPECTED_THEME="Theme=elysiaos-style2"
 EXPECTED_DELAY="ShowDelay=2"
 
 echo "[+] Verifying $PLYMOUTH_CONF..."
-
 if [ ! -f "$PLYMOUTH_CONF" ]; then
     echo "[+] Creating $PLYMOUTH_CONF..."
     echo -e "[Daemon]\n$EXPECTED_THEME\n$EXPECTED_DELAY" | sudo tee "$PLYMOUTH_CONF" >/dev/null
@@ -272,8 +316,8 @@ else
 fi
 
 # === Rebuild initramfs again ===
-echo "[+] Rebuilding initramfs again after theme setup..."
-sudo mkinitcpio -p linux
+echo "[+] Rebuilding initramfs again after theme setup for kernel: $SELECTED_KERNEL..."
+sudo mkinitcpio -p "$SELECTED_KERNEL"
 
 
 # === SDDM Setup ===
