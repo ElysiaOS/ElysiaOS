@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Prevent multiple instances
+if pgrep -f "workspace-switcher" > /dev/null; then
+    echo "Workspaces App is already running."
+    exit 1
+fi
+
+~/.config/Elysia/assets/workspace-switcher
