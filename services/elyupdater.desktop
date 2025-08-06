@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Elysia Updater
-Comment=ElysiaOS Updater App
-Exec=elysia-updater.sh
-Icon=elysettings
-Terminal=false
-Type=Application
-Categories=System;

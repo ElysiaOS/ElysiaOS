@@ -215,6 +215,7 @@
         "tooltip-format-wifi": "{icon} {essid} right click menu",
         "tooltip-format-ethernet": "󰀂  {ifname}",
         "tooltip-format-disconnected": "Disconnected",
+        "on-click": "elysettings network",
         "on-click-right": "network_manager",
         "interval": 3,
         "nospacing": 0
@@ -303,7 +304,7 @@
     "exec": "~/.config/waybar/Scripts/sys.sh",
     "return-type": "json",
     "format": "{}",
-    "on-click": "~/.config/Elysia/elysettings",
+    "on-click": "elysettings",
     "interval": 2
     },
     "custom/kew": {

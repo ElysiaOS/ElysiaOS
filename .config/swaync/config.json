@@ -47,11 +47,11 @@
       "actions": [
         {
           "label": " ",
-          "command": "network_manager && swaync-client -cp"
+          "command": "elysettings network && swaync-client -cp"
         },
         {
           "label": "󰂯",
-          "command": "~/bin/elysettings && swaync-client -cp"
+          "command": "elysettings bluetooth && swaync-client -cp"
         },
         {
           "label": "",

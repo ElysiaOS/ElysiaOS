@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Elysia Settings
-Comment=ElysiaOS Settings App
-Exec=elysettings
-Icon=elysettings
-Terminal=false
-Type=Application
-Categories=System;

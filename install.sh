@@ -27,6 +27,17 @@ fi
 sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# === Add ElysiaOS Repo ===
+echo "[INFO] Checking for ElysiaOS repository in pacman.conf..."
+if ! grep -q '^\[elysiaos-repo\]' /etc/pacman.conf; then
+    echo "[INFO] Adding ElysiaOS repository to pacman.conf..."
+    sudo awk '/^\[core\]/{print; getline; print; print "\n[elysiaos-repo]\nSigLevel = Optional DatabaseOptional\nServer = https://raw.githubusercontent.com/ElysiaOS/elysiaos-repo/refs/heads/main/$arch"; next}1' /etc/pacman.conf > /etc/pacman.conf.tmp && mv /etc/pacman.conf.tmp /etc/pacman.conf
+else
+    echo "[INFO] ElysiaOS repository already exists, skipping."
+fi
+
+pacman -Syyy --noconfirm || true
+
 # === ASCII Art Banner ===
 cat << "EOF"
                     ░╦╦▒▒╛``  `
@@ -70,7 +81,7 @@ fi
 echo "[+] Installing packages with yay..."
 
 PACKAGES=(
-  waybar thunar hyprland starship swaync discord krita
+  waybar thunar hyprland starship discord krita
   eww wlogout swww kitty swayosd btop fastfetch
   hyprcursor hyprgraphics hypridle hyprland-qt-support
   hyprlock hyprpicker hyprutils hyprswitch
@@ -97,6 +108,8 @@ PACKAGES=(
   noto-fonts-cjk noto-fonts-emoji ttf-firacode-nerd
   fcitx5 fcitx5-configtool fcitx5-mozc mpv
   ffmpeg gst-libav qt6-multimedia-ffmpeg gparted
+  elysia-updater-elysiaos elysia-settings-elysiaos
+  signet-workspaces-elysiaos
 )
 
 yay -S --noconfirm --needed "${PACKAGES[@]}" || {
@@ -187,14 +200,11 @@ fi
 
 sudo cp "$HOME/bin/wallpaper-switch.sh" /usr/bin/
 sudo cp "$HOME/bin/network_manager" /usr/local/bin/
-sudo cp "$HOME/bin/elysia-updater.sh" /usr/local/bin/
-sudo cp "$HOME/bin/elysettings" /usr/local/bin/
 sudo cp -r "$HOME/fonts" /usr/share/
 sudo cp "$HOME/services/wallpaper-auto.service" /etc/systemd/user/
 sudo cp "$HOME/services/wallpaper-auto.timer" /etc/systemd/user/
 sudo cp "$HOME/services/floorp.desktop" /usr/share/applications/
-sudo cp "$HOME/services/elysettings.desktop" /usr/share/applications/
-sudo cp "$HOME/services/elyupdater.desktop" /usr/share/applications/
+sudo cp "$TARGET_HOME/bin/ElysiaOSKeybinds" /usr/local/bin/
 
 echo "[+] Setting up Services..."
 
