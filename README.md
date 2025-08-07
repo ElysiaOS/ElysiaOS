@@ -2,11 +2,21 @@
 <a href="https://github.com/Matsko3/ElysiaOS">
   <img src="assets/cover.png">
   </a>
+  <a href="https://github.com/Matsko3/ElysiaOS">
+    <img src="https://img.shields.io/github/stars/Matsko3/ElysiaOS?style=for-the-badge&logo=github&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Stars">
+  <a href="https://github.com/Matsko3/ElysiaOS">
+    <img src="https://img.shields.io/github/last-commit/Matsko3/ElysiaOS?style=for-the-badge&logo=github&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Last-Commit">
+  <a href="https://github.com/Matsko3/ElysiaOS">
+    <img src="https://img.shields.io/github/repo-size/Matsko3/ElysiaOS?style=for-the-badge&logo=github&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Repo-Size">
+  <a href="https://discord/invite/tbRy63xdWD">
+    <img src="https://img.shields.io/discord/1398271551194792027?style=for-the-badge&logo=discord&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Discord">
+  <a href="https://ko-fi.com/matsuko3">
+    <img src="https://img.shields.io/badge/Support%20me%20on-Ko--fi-FF6433?style=for-the-badge&logo=kofi&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Ko-Fi">
 </p>
 
 <div align="center">
 
-# 🌸 ElysiaOS 2.0 Launch 🌸
+# 🌸 ElysiaOS 2.1 🌸
 # You can now Download the entire OS and install with the ISO, you have to turn off Secure boot to install.
 # https://sourceforge.net/projects/elysiaos
 
@@ -50,15 +60,6 @@
 </table>
 
 </div>
-
-
-## Support and Donate
-
-If you like my project, you can always support me via just a coffee and thank you so much ❤️ !
-
-[Discord Server](https://discord.gg/tbRy63xdWD)
-
-<a href="https://ko-fi.com/matsuko3"><img src="assets/ko-fi.png" width="120" height="30"/></a>
 
 <h2><sub><img src="assets/eri.png" alt="Eri" width="25" height="25" /></sub> Installation</h2>
 
@@ -137,6 +138,7 @@ yay -S --noconfirm waybar-cava thunar hyprland starship rofi swaync discord krit
 <h2><sub><img src="assets/eri.png" alt="Eri" width="25" height="25" /></sub> Details</h2>
 
 - **OS**: Arch Linux
+- **SHELL**: Zsh
 - **WM**: [Hyprland](https://github.com/hyprwm/Hyprland)
 - **Wallpaper**: [swww](https://github.com/LGFae/swww)
 - **Applications Launcher**: [rofi](https://github.com/lbonn/rofi)
