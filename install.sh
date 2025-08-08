@@ -109,7 +109,7 @@ PACKAGES=(
   fcitx5 fcitx5-configtool fcitx5-mozc mpv
   ffmpeg gst-libav qt6-multimedia-ffmpeg gparted
   elysia-updater-elysiaos elysia-settings-elysiaos
-  signet-workspaces-elysiaos
+  signet-workspaces-elysiaos keybinds-elysiaos
 )
 
 yay -Syyy --noconfirm --needed "${PACKAGES[@]}" || {
