@@ -36,7 +36,7 @@ else
     echo "[INFO] ElysiaOS repository already exists, skipping."
 fi
 
-pacman -Syyy --noconfirm || true
+sudo pacman -Syyy --noconfirm || true
 
 # === ASCII Art Banner ===
 cat << "EOF"
@@ -112,9 +112,9 @@ PACKAGES=(
   signet-workspaces-elysiaos
 )
 
-yay -S --noconfirm --needed "${PACKAGES[@]}" || {
+yay -Syyy --noconfirm --needed "${PACKAGES[@]}" || {
   echo "[!] Conflict detected. Retrying with overwrite..."
-  yay -S --noconfirm --needed --overwrite '*' "${PACKAGES[@]}"
+  yay -Syyy --noconfirm --needed --overwrite '*' "${PACKAGES[@]}"
 }
 
 # === Install Floorp Browser ===
