@@ -31,7 +31,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 echo "[INFO] Checking for ElysiaOS repository in pacman.conf..."
 if ! grep -q '^\[elysiaos-repo\]' /etc/pacman.conf; then
     echo "[INFO] Adding ElysiaOS repository to pacman.conf..."
-    sudo awk '/^\[core\]/{print; getline; print; print "\n[elysiaos-repo]\nSigLevel = Optional DatabaseOptional\nServer = https://raw.githubusercontent.com/ElysiaOS/elysiaos-repo/refs/heads/main/$arch"; next}1' /etc/pacman.conf > /etc/pacman.conf.tmp && mv /etc/pacman.conf.tmp /etc/pacman.conf
+    sudo awk '/^\[core\]/{print; getline; print; print "\n[elysiaos-repo]\nSigLevel = Optional DatabaseOptional\nServer = https://raw.githubusercontent.com/ElysiaOS/elysiaos-repo/refs/heads/main/$arch"; next}1' /etc/pacman.conf | sudo tee /etc/pacman.conf.tmp > /dev/null && sudo mv /etc/pacman.conf.tmp /etc/pacman.conf
 else
     echo "[INFO] ElysiaOS repository already exists, skipping."
 fi
