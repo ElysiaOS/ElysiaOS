@@ -204,7 +204,6 @@ sudo cp -r "$HOME/fonts" /usr/share/
 sudo cp "$HOME/services/wallpaper-auto.service" /etc/systemd/user/
 sudo cp "$HOME/services/wallpaper-auto.timer" /etc/systemd/user/
 sudo cp "$HOME/services/floorp.desktop" /usr/share/applications/
-sudo cp "$TARGET_HOME/bin/ElysiaOSKeybinds" /usr/local/bin/
 
 echo "[+] Setting up Services..."
 
