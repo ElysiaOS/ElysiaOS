@@ -80,51 +80,6 @@
 )
 
 
-(defwidget music []
-  (box :class "music-box"
-       :orientation "h"
-       :spacing 20
-       :space-evenly false
-    (box :class "firstcol"
-         :orientation "v"
-         :space-evenly true
-         :halign "start"
-         :valign "center"
-      (box :class "picture"
-           :orientation "v"
-           :space-evenly true
-           :style "background-image: url('${music_art_url}');"
-        music_art
-      )
-    )
-    (box :class "lastcol"
-         :orientation "v"
-         :space-evenly false
-         :spacing 7
-         :vexpand true
-         :hexpand true
-      (box :class "content"
-           :valign "start"
-           :orientation "v"
-           :halign "center"
-           :space-evenly false
-        (label :text "${music_title}" :class "title")
-        (label :text "${music_artist}" :class "artist")
-      )
-      (box :class "music-controls"
-           :orientation "h"
-           :space-evenly true
-           :spacing 6
-           :halign "center"
-           :hexpand false
-        (button :onclick "~/.config/eww/scripts/music/control.sh prev" "⏪︎")
-        (button :class "pause" :onclick "~/.config/eww/scripts/music/control.sh play-pause" "${music_status == 'Playing' ? '' : ''}")
-        (button :onclick "~/.config/eww/scripts/music/control.sh next" "⏩︎")
-      )
-    )
-  )
-)
-
 (defwidget controls []
   (box :class "controls"
        :orientation "v"
@@ -190,7 +145,6 @@
     (sys_side)
     (time)
     (controls)
-    (music)
     (profile)
   )
 )

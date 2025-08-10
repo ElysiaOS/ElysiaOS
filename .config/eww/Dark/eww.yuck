@@ -1,6 +1,5 @@
 (include "variables.yuck")
 (include "dashboard/dashboard.yuck")
-(include "dashboard/music.yuck")
 (include "dashboard/calender.yuck")
 (include "dashboard/apps.yuck")
 (include "dashboard/wallpaper.yuck")

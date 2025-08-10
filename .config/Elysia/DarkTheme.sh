@@ -21,6 +21,7 @@ apply_dark_theme() {
     hyprctl reload
 
     pkill eww && eww daemon
+    pkill music_widget
 
     # Set GTK theme
     gsettings set org.gnome.desktop.interface gtk-theme "ElysiaOS-HoC"

@@ -198,7 +198,7 @@
     "clock": {
         "tooltip": false,
         "format": " {:%a, %I:%M %p} ",
-        "on-click": "~/.config/eww/toggle_calender.sh",
+        "on-click": "~/bin/music-c.sh",
     },
     "network": {
         "format-wifi": "      {bandwidthDownBytes} ",
@@ -293,7 +293,7 @@
     "format": "{} ",
     "return-type": "json",
     "on-click": "playerctl play-pause",
-    "on-click-right": "~/.config/eww/toggle_music.sh"
+    "on-click-right": "~/bin/music-c.sh"
     },
     "custom/recorder": {
     "exec":"~/.config/waybar/Scripts/gpu_record.sh",
