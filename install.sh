@@ -81,7 +81,7 @@ fi
 echo "[+] Installing packages with yay..."
 
 PACKAGES=(
-  waybar thunar hyprland starship discord krita
+  waybar thunar hyprland starship krita
   eww wlogout swww kitty swayosd btop fastfetch
   hyprcursor hyprgraphics hypridle hyprland-qt-support
   hyprlock hyprpicker hyprutils hyprswitch
