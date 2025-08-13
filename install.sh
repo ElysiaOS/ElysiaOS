@@ -110,6 +110,7 @@ PACKAGES=(
   ffmpeg gst-libav qt6-multimedia-ffmpeg gparted
   elysia-updater-elysiaos elysia-settings-elysiaos
   signet-workspaces-elysiaos keybinds-elysiaos
+  elysia-launcher
 )
 
 yay -Syyy --noconfirm --needed "${PACKAGES[@]}" || {

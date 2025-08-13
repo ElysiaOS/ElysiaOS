@@ -17,7 +17,6 @@ apply_light_theme() {
 
     # Update Hyprland colors for Light theme
     sed -i -E 's/^( *col\.active_border *= *rgb\()[^)]+(\))$/\1'"eb71dc"'\2/' "$HYPER_CONF"
-    sed -i -E 's|^\$launcher *=.*$|$launcher = rofi -show drun -theme ~/.config/rofi/themes/ely.rasi|' "$APPLICATIONS"
     kitty +kitten themes --reload-in=all "Elysia"
     hyprctl reload
 
@@ -53,7 +52,6 @@ apply_dark_theme() {
 
     # Update Hyprland colors for Dark theme
     sed -i -E 's/^( *col\.active_border *= *rgb\()[^)]+(\))$/\1'"7077bd"'\2/' "$HYPER_CONF"
-    sed -i -E 's|^\$launcher *=.*$|$launcher = rofi -show drun -theme ~/.config/rofi/hoc2.rasi|' "$APPLICATIONS"
     kitty +kitten themes --reload-in=all "HoC Elysia"
     hyprctl reload
 
