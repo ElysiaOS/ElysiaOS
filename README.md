@@ -16,7 +16,7 @@
 
 <div align="center">
 
-# 🌸 ElysiaOS 2.1 🌸
+# 🌸 ElysiaOS 2.3 🌸
 # You can now Download the entire OS and install with the ISO, you have to turn off Secure boot to install.
 # https://sourceforge.net/projects/elysiaos
 
@@ -161,6 +161,7 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 
 - [x] Updater Manager
 - [x] GRUB Theme
+- [x] Elysia App Launcher
 - [x] Boot Animation Improvements
 - [x] Waybar Improvements
 - [x] Added Keyboard Lang switcher
@@ -174,7 +175,7 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 - [ ] Improve Settings Manager stability and more (?)
 - [ ] Future Elysia AI Assistant
 - [ ] Improve Dashboard (possibly moving from eww to my new featured GTK dashboard?)
-- [ ] Adding more Themes support in future for every app
+- [x] Adding more Themes support in future for every app
 
 <h2><sub><img src="assets/eri.png" alt="Eri" width="25" height="25" /></sub> Special Thanks ♪</h2>
 
