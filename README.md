@@ -41,8 +41,8 @@
   <tr>
     <td colspan="1"><img src="assets/dark2.png"></td>
     <td colspan="1"><img src="assets/dark3.png"></td>
-    <td colspan="1" align="center"><img src="assets/dark1.png"></td>
-    <td colspan="1" align="center"><img src="assets/dark1.png"></td>
+    <td colspan="1" align="center"><img src="assets/dark4.png"></td>
+    <td colspan="1" align="center"><img src="assets/grub.png"></td>
   </tr>
 </table>
 
