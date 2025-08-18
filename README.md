@@ -65,6 +65,7 @@
 
 > [!NOTE]
 > You need a functioning Arch Linux installation already up to date, or just get it from arch website.
+> Wallpapers in screenshots are not mine nor i'm affiliated with the artists and they are not provided with the OS.
 
 > Open Sourced [ElysiaOS Settings Application](https://github.com/Matsko3/elysiaos-settings) here
 
