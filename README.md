@@ -1,13 +1,13 @@
 <p align="center">
-<a href="https://github.com/Matsko3/ElysiaOS">
+<a href="https://github.com/ElysiaOS/ElysiaOS">
   <img src="assets/cover.png">
   </a>
-  <a href="https://github.com/Matsko3/ElysiaOS">
-    <img src="https://img.shields.io/github/stars/Matsko3/ElysiaOS?style=for-the-badge&logo=github&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Stars">
-  <a href="https://github.com/Matsko3/ElysiaOS">
-    <img src="https://img.shields.io/github/last-commit/Matsko3/ElysiaOS?style=for-the-badge&logo=github&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Last-Commit">
-  <a href="https://github.com/Matsko3/ElysiaOS">
-    <img src="https://img.shields.io/github/repo-size/Matsko3/ElysiaOS?style=for-the-badge&logo=github&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Repo-Size">
+  <a href="https://github.com/ElysiaOS/ElysiaOS">
+    <img src="https://img.shields.io/github/stars/ElysiaOS/ElysiaOS?style=for-the-badge&logo=github&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Stars">
+  <a href="https://github.com/ElysiaOS/ElysiaOS">
+    <img src="https://img.shields.io/github/last-commit/ElysiaOS/ElysiaOS?style=for-the-badge&logo=github&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Last-Commit">
+  <a href="https://github.com/ElysiaOS/ElysiaOS">
+    <img src="https://img.shields.io/github/repo-size/ElysiaOS/ElysiaOS?style=for-the-badge&logo=github&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Repo-Size">
   <a href="https://discord/invite/tbRy63xdWD">
     <img src="https://img.shields.io/discord/1398271551194792027?style=for-the-badge&logo=discord&logoColor=%23ffb0e2&labelColor=%23f7f0f5&color=%23ff7ace" alt="Discord">
   <a href="https://ko-fi.com/matsuko3">
@@ -16,7 +16,7 @@
 
 <div align="center">
 
-# 🌸 ElysiaOS 2.3 🌸
+# 🌸 ElysiaOS Release 2.3 🌸
 # You can now Download the entire OS and install with the ISO, you have to turn off Secure boot to install.
 # https://sourceforge.net/projects/elysiaos
 
@@ -64,15 +64,14 @@
 <h2><sub><img src="assets/eri.png" alt="Eri" width="25" height="25" /></sub> Installation</h2>
 
 > [!NOTE]
-> You need a functioning Arch Linux installation already up to date, or just get it from arch website.
 > Wallpapers in screenshots are not mine nor i'm affiliated with the artists and they are not provided with the OS.
 
-> Open Sourced [ElysiaOS Settings Application](https://github.com/Matsko3/elysiaos-settings) here
+> Open Sourced Apps [ElysiaOS Apps](https://github.com/ElysiaOS) here
 
-### Arch Linux
+### DOTFILES 
 
 > [!TIP]
-> ONE CLICK INSTALLATION (keep in mind this will overrwrite some home directory please kindly read install.sh before executing anything!
+> ONE CLICK DOTFILES INSTALLATION (keep in mind this will overrwrite some home directory please kindly read install.sh before executing anything!
 
 ```bash
 curl -sSf https://www.elysiaos.live/eri.sh | bash
@@ -89,14 +88,14 @@ https://www.elysiaos.live/sidebery-style.txt
 or 
 
 ```
-git clone https://github.com/Matsko3/ElysiaOS
+git clone https://github.com/ElysiaOS/ElysiaOS
 cd ElysiaOS
 chmod +x install.sh
 ./install.sh
 ```
 ### PACKAGES NEEDED 
 ```
-yay -S --noconfirm waybar-cava thunar hyprland starship rofi swaync discord krita google-chrome eww wlogout swww eww kitty kew swayosd btop fastfetch hyprcursor hyprgraphics hypridle hyprland-qt-support hyprlock hyprpicker hyprutils hyprswitch xdg-desktop-portal-hyprland xdg-desktop-portal-gnome gnome-text-editor xdg-desktop-portal xfce4-settings xfce4-taskmanager gsettings-desktop-schemas gsettings-system-schemas qt5-base qt5-multimedia qt5-svg qt5-wayland qt5ct qt6-base qt6-wayland qt6ct zip libzip file-roller unzip thunar-archive-plugin noto-fonts ttf-jetbrains-mono-nerd auto-cpufreq sddm-eucalyptus-drop swaylock-effects python python-cairo python-installer python-numpy python-pillow python-pip python-pipx python-psutil python-pyqt6 python-pyqt5 python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm visual-studio-code-bin sublime-text-4 grim xclip wl-clipboard libnotify clipnotify copyq gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification playerctl xkb-switch jq elysia-updater-elysiaos elysia-settings-elysiaos signet-workspaces-elysiaos keybinds-elysiaos
+yay -S --noconfirm waybar-cava thunar hyprland starship rofi swaync discord krita google-chrome eww wlogout swww eww kitty kew swayosd btop fastfetch hyprcursor hyprgraphics hypridle hyprland-qt-support hyprlock hyprpicker hyprutils hyprswitch xdg-desktop-portal-hyprland xdg-desktop-portal-gnome gnome-text-editor xdg-desktop-portal xfce4-settings xfce4-taskmanager gsettings-desktop-schemas gsettings-system-schemas qt5-base qt5-multimedia qt5-svg qt5-wayland qt5ct qt6-base qt6-wayland qt6ct zip libzip file-roller unzip thunar-archive-plugin noto-fonts ttf-jetbrains-mono-nerd auto-cpufreq sddm-eucalyptus-drop swaylock-effects python python-cairo python-installer python-numpy python-pillow python-pip python-pipx python-psutil python-pyqt6 python-pyqt5 python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm visual-studio-code-bin sublime-text-4 grim xclip wl-clipboard libnotify clipnotify copyq gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification playerctl xkb-switch jq elysia-updater-elysiaos elysia-settings-elysiaos signet-workspaces-elysiaos keybinds-elysiaos elysia-launcher
 ```
 
 Make sure to add the elysiaos-repo to your pacman.conf before any installation
@@ -145,8 +144,8 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 
 <h2><sub><img src="assets/eri.png" alt="Eri" width="25" height="25" /></sub> Details</h2>
 
-- **OS**: Arch Linux
-- **SHELL**: Zsh
+- **OS Based on**: Arch Linux
+- **SHELL**: zsh
 - **WM**: [Hyprland](https://github.com/hyprwm/Hyprland)
 - **Wallpaper**: [swww](https://github.com/LGFae/swww)
 - **Applications Launcher**: [rofi](https://github.com/lbonn/rofi)
