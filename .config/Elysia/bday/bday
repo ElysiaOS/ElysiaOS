@@ -3,7 +3,7 @@
 # Define the birthday notification and WAV sound file
 BIRTHDAY_SOUND="$HOME/.config/Elysia/bday/ely_bday.wav"
 BIRTHDAY_IMAGE="$HOME/.config/Elysia/bday/ely1.png"
-STARTUP_IMAGE="$HOME/.config/Elysia/bday/startup.jpg"
+STARTUP_IMAGE="$HOME/.config/Elysia/bday/elyoslogo.png"
 INI_FILE="$HOME/.config/Elysia/bday/birthday.ini"
 
 # Function to send a notification
@@ -11,6 +11,18 @@ send_notification() {
     local title="$1"
     local message="$2"
     notify-send "$title" "$message" -i "$BIRTHDAY_IMAGE"
+}
+
+# Function to fetch remote notify text
+send_remote_notification() {
+    local url="https://www.elysiaos.live/notify"
+    local notify_text
+    notify_text=$(curl -fsSL "$url")
+
+    # Only send if non-empty (ignores whitespace too)
+    if [[ -n "$(echo "$notify_text" | xargs)" ]]; then
+        notify-send "Elysia" "$notify_text" -i "$BIRTHDAY_IMAGE"
+    fi
 }
 
 # If the script is run with a new date, update the birthday in the INI file
@@ -53,3 +65,6 @@ else
         notify-send "Elysia" "Starting ElysiaOS" -i "$STARTUP_IMAGE"
     fi
 fi
+
+# Always check remote notify after the startup notify
+send_remote_notification

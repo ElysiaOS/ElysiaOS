@@ -13,7 +13,6 @@
     "modules-center": [
         "clock",
         "image#album-art",
-        "custom/kew",
         "custom/mpris",
     ],
     "modules-right": [
@@ -209,7 +208,6 @@
             "     Disconnected"
         ],
         "format-ethernet": "      {bandwidthDownBytes}",
-        "format-alt": "󱛇",
         "format-disconnected": "     Disconnected",
         "tooltip-format-wifi": "{icon} {essid} right click menu",
         "tooltip-format-ethernet": "󰀂  {ifname}",
@@ -240,7 +238,7 @@
         "interval": 1,
         "tooltip": false,
         "on-click": "wlogout",
-        "on-click-right": "~/bin/about_system",
+        "on-click-right": "about_system",
         "on-click-middle": "~/.config/Elysia/Theme.sh"
     },
     "custom/swaync": {

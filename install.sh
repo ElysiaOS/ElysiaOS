@@ -109,8 +109,8 @@ PACKAGES=(
   fcitx5 fcitx5-configtool fcitx5-mozc mpv jq
   ffmpeg gst-libav qt6-multimedia-ffmpeg gparted
   elysia-updater-elysiaos elysia-settings-elysiaos
-  signet-workspaces-elysiaos keybinds-elysiaos
-  elysia-launcher
+  signet-workspaces-elysiaos sysinfo-elysiaos
+  elysia-launcher elysia-downloader elysia-welcome-elysiaos
 )
 
 yay -Syyy --noconfirm --needed "${PACKAGES[@]}" || {
@@ -121,8 +121,8 @@ yay -Syyy --noconfirm --needed "${PACKAGES[@]}" || {
 # === Install Floorp Browser ===
 echo "[+] Downloading Floorp browser..."
 
-FLOORP_URL="https://github.com/Floorp-Projects/Floorp/releases/download/v12.0.14/floorp-linux-amd64.tar.xz"
-FLOORP_ARCHIVE="floorp-linux-amd64.tar.xz"
+FLOORP_URL="https://github.com/Floorp-Projects/Floorp/releases/download/v12.1.4/floorp-linux-aarch64.tar.xz"
+FLOORP_ARCHIVE="floorp-linux-aarch64.tar.xz"
 
 # Download
 curl -L "$FLOORP_URL" -o "$FLOORP_ARCHIVE"
