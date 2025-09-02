@@ -16,9 +16,15 @@
 
 <div align="center">
 
-# 🌸 ElysiaOS Release 2.3 🌸
-# You can now Download the entire OS and install with the ISO, you have to turn off Secure boot to install.
-# https://sourceforge.net/projects/elysiaos
+# 🌸 ElysiaOS Release 3.0 🌸
+### KEEP IN MIND THIS REPO MIGHT NOT BE ALWAYS UP TO DATE, The OS Installation repos are ALWAYS UP TO DATE
+### You can now Download the entire OS and install with the ISO, you have to turn off Secure boot to install, if you use VM make sure you have at least 3D Acceleration enabled or IGPU.
+### ElysiaOS Mirrors Downloads
+
+| TYPE | SourceForge Mirror | MEGA Mirror |
+|------|--------------------|-------------|
+| `ElysiaOS-Release` | [Download](https://sourceforge.net/projects/elysiaos) | [Download](https://mega.nz/folder/HRtmBRqJ#-Jl7usp300in-OeiFOGm2g) |
+| `ElysiaOS-Beta` | [Download](https://sourceforge.net/projects/elysiaos) |  [Download](https://mega.nz/folder/HRtmBRqJ#-Jl7usp300in-OeiFOGm2g) |
 
 <h2><sub><img src="assets/signet.png" alt="Elysia Signet" width="25" height="25" /></sub> Light Theme</h2>
 <table align="center">
@@ -68,7 +74,7 @@
 
 > Open Sourced Apps [ElysiaOS Apps](https://github.com/ElysiaOS) here
 
-### DOTFILES 
+### DOTFILES
 
 > [!TIP]
 > ONE CLICK DOTFILES INSTALLATION (keep in mind this will overrwrite some home directory please kindly read install.sh before executing anything!
@@ -95,7 +101,7 @@ chmod +x install.sh
 ```
 ### PACKAGES NEEDED 
 ```
-yay -S --noconfirm waybar-cava thunar hyprland starship rofi swaync discord krita google-chrome eww wlogout swww eww kitty kew swayosd btop fastfetch hyprcursor hyprgraphics hypridle hyprland-qt-support hyprlock hyprpicker hyprutils hyprswitch xdg-desktop-portal-hyprland xdg-desktop-portal-gnome gnome-text-editor xdg-desktop-portal xfce4-settings xfce4-taskmanager gsettings-desktop-schemas gsettings-system-schemas qt5-base qt5-multimedia qt5-svg qt5-wayland qt5ct qt6-base qt6-wayland qt6ct zip libzip file-roller unzip thunar-archive-plugin noto-fonts ttf-jetbrains-mono-nerd auto-cpufreq sddm-eucalyptus-drop swaylock-effects python python-cairo python-installer python-numpy python-pillow python-pip python-pipx python-psutil python-pyqt6 python-pyqt5 python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm visual-studio-code-bin sublime-text-4 grim xclip wl-clipboard libnotify clipnotify copyq gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification playerctl xkb-switch jq elysia-updater-elysiaos elysia-settings-elysiaos signet-workspaces-elysiaos keybinds-elysiaos elysia-launcher
+yay -S --noconfirm waybar-cava thunar hyprland starship rofi swaync discord krita google-chrome eww wlogout swww eww kitty kew swayosd btop fastfetch hyprcursor hyprgraphics hypridle hyprland-qt-support hyprlock hyprpicker hyprutils hyprswitch xdg-desktop-portal-hyprland xdg-desktop-portal-gnome gnome-text-editor xdg-desktop-portal xfce4-settings xfce4-taskmanager gsettings-desktop-schemas gsettings-system-schemas qt5-base qt5-multimedia qt5-svg qt5-wayland qt5ct qt6-base qt6-wayland qt6ct zip libzip file-roller unzip thunar-archive-plugin noto-fonts ttf-jetbrains-mono-nerd auto-cpufreq sddm-eucalyptus-drop swaylock-effects python python-cairo python-installer python-numpy python-pillow python-pip python-pipx python-psutil python-pyqt6 python-pyqt5 python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm visual-studio-code-bin sublime-text-4 grim xclip wl-clipboard libnotify clipnotify copyq gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification playerctl xkb-switch jq elysia-updater-elysiaos elysia-settings-elysiaos signet-workspaces-elysiaos elysia-welcome-elysiaos elysia-launcher sysinfo-elysiaos elysia-downloader
 ```
 
 Make sure to add the elysiaos-repo to your pacman.conf before any installation
@@ -134,6 +140,10 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 | <kbd>FN</kbd> + <kbd>F2</kbd> | Lower Volume |
 | <kbd>FN</kbd> + <kbd>F3</kbd> | Higher Volume |
 | <kbd>FN</kbd> + <kbd>F4</kbd> | MUTE Microphone |
+| <kbd>Right CLICK</kbd> + <kbd>On ElysiaSignet</kbd> | System Information |
+| <kbd>Left CLICK</kbd> + <kbd>On ElysiaSignet</kbd> | Powermenu |
+| <kbd>Middle CLICK</kbd> + <kbd>On ElysiaSignet</kbd> | Theme Changer |
+
 
 
 </div>
@@ -148,7 +158,7 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 - **SHELL**: zsh
 - **WM**: [Hyprland](https://github.com/hyprwm/Hyprland)
 - **Wallpaper**: [swww](https://github.com/LGFae/swww)
-- **Applications Launcher**: [rofi](https://github.com/lbonn/rofi)
+- **Applications Launcher**: Elysia App Launcher
 - **Top Bar**: [Waybar](https://github.com/Alexays/Waybar)
 - **Widgets**: [eww](https://github.com/elkowar/eww)
 - **Notifications**: [Swaync](https://github.com/ErikReider/SwayNotificationCenter)
@@ -162,6 +172,7 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 - [x] Updater Manager
 - [x] GRUB Theme
 - [x] Elysia App Launcher
+- [x] Elysia Art Downloader
 - [x] Boot Animation Improvements
 - [x] Waybar Improvements
 - [x] Added Keyboard Lang switcher
@@ -182,5 +193,8 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 - [Some of the Folder icons](https://ko-fi.com/s/e3be105b94)
 - [Main Floorp theme idea](https://github.com/Shina-SG/Shina-Fox)
 - And Everyone else who tested and reported issues and bugs!!
+- Sponsors:
+Memory
+markun8633
 
 </div>
