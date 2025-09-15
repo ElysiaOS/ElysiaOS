@@ -81,8 +81,8 @@ fi
 echo "[+] Installing packages with yay..."
 
 PACKAGES=(
-  waybar thunar hyprland starship krita
-  eww wlogout swww kitty swayosd btop fastfetch
+  waybar thunar hyprland starship
+  pamixer wlogout swww kitty btop fastfetch
   hyprcursor hyprgraphics hypridle hyprland-qt-support
   hyprlock hyprpicker hyprutils hyprswitch
   xdg-desktop-portal-hyprland xdg-desktop-portal-gnome gnome-text-editor
@@ -111,6 +111,7 @@ PACKAGES=(
   elysia-updater-elysiaos elysia-settings-elysiaos
   signet-workspaces-elysiaos sysinfo-elysiaos
   elysia-launcher elysia-downloader elysia-welcome-elysiaos
+  elysia-widgets
 )
 
 yay -Syyy --noconfirm --needed "${PACKAGES[@]}" || {

@@ -1,70 +1,9 @@
 #!/bin/bash
 
-# Function to show usage
-show_usage() {
-    echo "Usage: $0 [section]"
-    echo "Launch Elysia Settings application"
-    echo ""
-    echo "Options:"
-    echo "  [no arguments]    Launch the main settings interface"
-    echo "  section           Launch directly to a specific section"
-    echo ""
-    echo "Valid sections:"
-    echo "  about             About system information"
-    echo "  display           Display and screen settings"
-    echo "  network           Network configuration"
-    echo "  sound             Audio settings"
-    echo "  applications      Application management (aliases: apps, hyprland)"
-    echo "  wallpaper         Wallpaper and appearance (alias: appearance)"
-    echo "  bluetooth         Bluetooth settings"
-    echo "  battery           Battery information"
-    echo "  power             Power management"
-    echo "  storage           Storage and disk information"
-    echo "  support           Support and donations"
-    echo "  update            System updates (alias: updates)"
-    echo ""
-    echo "Examples:"
-    echo "  $0                Launch main settings"
-    echo "  $0 about          Launch About section"
-    echo "  $0 display        Launch Display settings"
-    echo "  $0 --help         Show application help"
-}
-
-# Handle help requests
-if [ "$1" = "-h" ] || [ "$1" = "--help" ] || [ "$1" = "help" ]; then
-    show_usage
-    exit 0
-fi
-
-# Check if section argument is provided and validate it
-SECTION=""
-if [ $# -gt 0 ]; then
-    # Convert to lowercase for consistency
-    SECTION=$(echo "$1" | tr '[:upper:]' '[:lower:]')
-    
-    # List of valid sections (including aliases)
-    VALID_SECTIONS="about display network sound applications apps hyprland wallpaper appearance bluetooth battery power storage support update updates"
-    
-    # Check if the provided section is valid
-    if [[ ! " $VALID_SECTIONS " =~ " $SECTION " ]]; then
-        echo "Error: Unknown section '$1'"
-        echo ""
-        show_usage
-        exit 1
-    fi
-fi
-
 # Prevent multiple instances
 if pgrep -f "ElysiaSettings" > /dev/null; then
     echo "Elysia Settings is already running."
     exit 1
 fi
 
-# Launch the application
-if [ -z "$SECTION" ]; then
-    # Launch main interface
-    ElysiaSettings
-else
-    # Launch specific section
-    ElysiaSettings "$SECTION"
-fi
+~/bin/ElysiaSettings

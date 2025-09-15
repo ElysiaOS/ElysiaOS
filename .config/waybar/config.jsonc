@@ -291,7 +291,7 @@
     "format": "{} ",
     "return-type": "json",
     "on-click": "playerctl play-pause",
-    "on-click-right": "~/bin/music-c.sh"
+    "on-click-right": "elysia-widget-daemon --show"
     },
     "custom/recorder": {
     "exec":"~/.config/waybar/Scripts/gpu_record.sh",

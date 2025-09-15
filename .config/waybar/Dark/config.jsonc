@@ -292,7 +292,7 @@
     "on-click": "playerctl play-pause",
     "tooltip": true,
     "tooltip-format": "{}",
-    "on-click-right": "~/bin/music-c.sh"
+    "on-click-right": "elysia-widget-daemon --show"
     },
     "custom/settings": {
     "exec": "~/.config/waybar/Scripts/sys.sh",

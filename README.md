@@ -185,7 +185,7 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 - [x] Screenshot Recorder
 - [ ] Improve Settings Manager stability and more (?)
 - [ ] Future Elysia AI Assistant
-- [ ] Improve Dashboard (possibly moving from eww to my new featured GTK dashboard?)
+- [x] Improve Dashboard (possibly moving from eww to my new featured GTK dashboard?)
 - [x] Adding more Themes support in future for every app
 
 <h2><sub><img src="assets/eri.png" alt="Eri" width="25" height="25" /></sub> Special Thanks ♪</h2>

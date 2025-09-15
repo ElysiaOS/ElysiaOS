@@ -14,7 +14,7 @@
   "timeout-critical": 6,
   "fit-to-screen": false,
   "control-center-width": 340,
-  "control-center-height": 974,
+  "control-center-height": 958,
   "notification-window-width": 400,
   "keyboard-shortcuts": true,
   "image-visibility": "when-available",
@@ -46,7 +46,7 @@
     "buttons-grid": {
       "actions": [
         {
-          "label": " ",
+          "label": "",
           "command": "elysettings network && swaync-client -cp"
         },
         {
@@ -59,7 +59,7 @@
           "type": "toggle"
         },
         {
-          "label": " ",
+          "label": "",
           "command": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
           "type": "toggle"
         }

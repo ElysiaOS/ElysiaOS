@@ -19,9 +19,8 @@ apply_light_theme() {
     kitty +kitten themes --reload-in=all "Elysia"
     hyprctl reload
 
-    pkill eww && eww daemon
-    pkill music_widget
-    $HOME/.config/Elysia/widgets/music_widget
+    pkill elysia-widget-daemon
+    elysia-widget-daemon
 
     # Set GTK theme
     gsettings set org.gnome.desktop.interface gtk-theme "ElysiaOS"

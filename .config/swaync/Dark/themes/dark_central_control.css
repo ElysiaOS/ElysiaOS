@@ -6,7 +6,6 @@
 
 	all: unset;
 	font-size: 14px;
-	font-family: "JetBrainsMono NF";
 	transition: 200ms;
 }
 
@@ -19,7 +18,7 @@
 .control-center {
 	background: @bg-1;
 	border-radius: 26px;
-	border: 4px solid #b1c9ee;
+	font-family: "ElysiaOSNew12";
 	margin: 18px;
 	padding: 12px;
 }
@@ -32,6 +31,7 @@
 	.notification.critical {
 	border-radius: 16px;
 	margin: 4px 0px;
+	font-family: "JetBrainsMono NF";
 	padding: 4px;
 }
 
@@ -39,6 +39,7 @@
 	.notification-row
 	.notification-background
 	.notification.critical {
+	font-family: "JetBrainsMono NF";
 	color: @bg-1;
 }
 
