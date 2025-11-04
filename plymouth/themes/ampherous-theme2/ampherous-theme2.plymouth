@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=ampherous-theme2
+Description=ElysiaOS Ampherous Cyrene Boot Theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/ampherous-theme2
+ScriptFile=/usr/share/plymouth/themes/ampherous-theme2/ampherous-theme2.script

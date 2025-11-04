@@ -35,11 +35,6 @@ apply_dark_theme() {
 
     ~/.config/Elysia/wallpaper/Dark/d-wallpaper.sh
 
-    # Reload Waybar after saving state
-    "$WAYBAR_SCRIPT"
-
-    # Kill and restart swaync
-    "$SWAYNC_SCRIPT"
     pkill visualizer && "$VISUALIZER_HOC"
 
     echo "Dark theme applied."

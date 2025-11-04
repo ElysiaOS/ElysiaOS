@@ -1,0 +1,1791 @@
+👾, Alien Monster
+😠, Angry Face
+😧, Anguished Face
+😲, Astonished Face
+🥑, Avocado
+👶, Baby
+👼, Baby Angel
+👼🏻, Baby Angel, Type-1-2
+👼🏼, Baby Angel, Type-3
+👼🏽, Baby Angel, Type-4
+👼🏾, Baby Angel, Type-5
+👼🏿, Baby Angel, Type-6
+👶🏻, Baby, Type-1-2
+👶🏼, Baby, Type-3
+👶🏽, Baby, Type-4
+👶🏾, Baby, Type-5
+👶🏿, Baby, Type-6
+🥓, Bacon
+🥖, Baguette Bread
+🦇, Bat
+👱🏻, Blond Person, Type-1-2
+👱🏼, Blond Person, Type-3
+👱🏽, Blond Person, Type-4
+👱🏾, Blond Person, Type-5
+👱🏿, Blond Person, Type-6
+🥊, Boxing Glove
+👦, Boy
+👦🏻, Boy, Type-1-2
+👦🏼, Boy, Type-3
+👦🏽, Boy, Type-4
+👦🏾, Boy, Type-5
+👦🏿, Boy, Type-6
+👰, Bride With Veil
+👰🏻, Bride With Veil, Type-1-2
+👰🏼, Bride With Veil, Type-3
+👰🏽, Bride With Veil, Type-4
+👰🏾, Bride With Veil, Type-5
+👰🏿, Bride With Veil, Type-6
+🦋, Butterfly
+🤙, Call Me Hand
+🤙🏻, Call Me Hand, Type-1-2
+🤙🏼, Call Me Hand, Type-3
+🤙🏽, Call Me Hand, Type-4
+🤙🏾, Call Me Hand, Type-5
+🤙🏿, Call Me Hand, Type-6
+🥕, Carrot
+😹, Cat Face With Tears Of Joy
+😼, Cat Face With Wry Smile
+🧀, Cheese Wedge
+🥂, Clinking Glasses
+🤡, Clown Face
+😖, Confounded Face
+😕, Confused Face
+👷, Construction Worker
+👷🏻, Construction Worker, Type-1-2
+👷🏼, Construction Worker, Type-3
+👷🏽, Construction Worker, Type-4
+👷🏾, Construction Worker, Type-5
+👷🏿, Construction Worker, Type-6
+👨‍❤️‍👨, Couple With Heart, Man, Man
+👩‍❤️‍👨, Couple With Heart, Woman, Man
+👩‍❤️‍👩, Couple With Heart, Woman, Woman
+🦀, Crab
+🥐, Croissant
+🤞🏻, Crossed Fingers, Type-1-2
+🤞🏼, Crossed Fingers, Type-3
+🤞🏽, Crossed Fingers, Type-4
+🤞🏾, Crossed Fingers, Type-5
+🤞🏿, Crossed Fingers, Type-6
+😿, Crying Cat Face
+😢, Crying Face
+🥒, Cucumber
+💃, Dancer ≊ Woman Dancing
+🦌, Deer
+😥, Disappointed But Relieved Face
+😞, Disappointed Face
+😵, Dizzy Face
+🤤, Drooling Face
+🥁, Drum With Drumsticks ≊ Drum
+🦆, Duck
+🦅, Eagle
+🥚, Egg
+😑, Expressionless Face
+👽, Extraterrestrial Alien ≊ Alien
+💆, Face Massage ≊ Person Getting Massage
+🤦, Face Palm ≊ Person Facepalming
+😋, Face Savouring Delicious Food
+😱, Face Screaming In Fear
+😘, Face Throwing A Kiss
+😓, Face With Cold Sweat
+🤠, Face With Cowboy Hat ≊ Cowboy Hat Face
+🤕, Face With Head-bandage
+😤, Face With Look Of Triumph ≊ Face With Steam From Nose
+😷, Face With Medical Mask
+🙅, Face With No Good Gesture ≊ Person Gesturing Not Ok
+🙆, Face With Ok Gesture ≊ Person Gesturing Ok
+😮, Face With Open Mouth
+😰, Face With Open Mouth And Cold Sweat ≊ Face With Open Mouth
+🙄, Face With Rolling Eyes
+😛, Face With Stuck-out Tongue
+😝, Face With Stuck-out Tongue And Tightly-closed Eyes ≊ Face With Stuck-out Tongue
+😜, Face With Stuck-out Tongue And Winking Eye ≊ Face With Stuck-out Tongue
+😂, Face With Tears Of Joy
+🤒, Face With Thermometer
+😶, Face Without Mouth
+👪, Family
+👨‍👨‍👦, Family, Man, Man, Boy
+👨‍👨‍👦‍👦, Family, Man, Man, Boy, Boy
+👨‍👨‍👧, Family, Man, Man, Girl
+👨‍👨‍👧‍👦, Family, Man, Man, Girl, Boy
+👨‍👨‍👧‍👧, Family, Man, Man, Girl, Girl
+👨‍👩‍👦, Family, Man, Woman, Boy
+👨‍👩‍👦‍👦, Family, Man, Woman, Boy, Boy
+👨‍👩‍👧, Family, Man, Woman, Girl
+👨‍👩‍👧‍👦, Family, Man, Woman, Girl, Boy
+👨‍👩‍👧‍👧, Family, Man, Woman, Girl, Girl
+👩‍👩‍👦, Family, Woman, Woman, Boy
+👩‍👩‍👦‍👦, Family, Woman, Woman, Boy, Boy
+👩‍👩‍👧, Family, Woman, Woman, Girl
+👩‍👩‍👧‍👦, Family, Woman, Woman, Girl, Boy
+👩‍👩‍👧‍👧, Family, Woman, Woman, Girl, Girl
+😨, Fearful Face
+🤺, Fencer ≊ Person Fencing
+🥇, First Place Medal ≊ 1st Place Medal
+😳, Flushed Face
+🙏🏻, Folded Hands, Type-1-2
+🙏🏼, Folded Hands, Type-3
+🙏🏽, Folded Hands, Type-4
+🙏🏾, Folded Hands, Type-5
+🙏🏿, Folded Hands, Type-6
+🦊, Fox Face
+😦, Frowning Face With Open Mouth
+👻, Ghost
+👧, Girl
+👧🏻, Girl, Type-1-2
+👧🏼, Girl, Type-3
+👧🏽, Girl, Type-4
+👧🏾, Girl, Type-5
+👧🏿, Girl, Type-6
+🥛, Glass Of Milk
+🥅, Goal Net
+🦍, Gorilla
+🥗, Green Salad
+😬, Grimacing Face
+😸, Grinning Cat Face With Smiling Eyes
+😀, Grinning Face
+😁, Grinning Face With Smiling Eyes
+💂, Guardsman
+💂🏻, Guardsman, Type-1-2
+💂🏼, Guardsman, Type-3
+💂🏽, Guardsman, Type-4
+💂🏾, Guardsman, Type-5
+💂🏿, Guardsman, Type-6
+💇, Haircut ≊ Person Getting Haircut
+🤞, Hand With Index And Middle Fingers Crossed ≊ Crossed Fingers
+🤾, Handball ≊ Person Playing Handball
+🤝, Handshake
+🤝🏻, Handshake, Type-1-2
+🤝🏼, Handshake, Type-3
+🤝🏽, Handshake, Type-4
+🤝🏾, Handshake, Type-5
+🤝🏿, Handshake, Type-6
+🙋, Happy Person Raising One Hand ≊ Person Raising Hand
+🙉, Hear-no-evil Monkey ≊ Hear-no-evil
+🤗, Hugging Face
+😯, Hushed Face
+👿, Imp
+💁, Information Desk Person ≊ Person Tipping Hand
+👺, Japanese Goblin ≊ Goblin
+👹, Japanese Ogre ≊ Ogre
+🤹, Juggling ≊ Person Juggling
+👨‍❤️‍💋‍👨, Kiss, Man, Man
+👩‍❤️‍💋‍👨, Kiss, Woman, Man
+👩‍❤️‍💋‍👩, Kiss, Woman, Woman
+😽, Kissing Cat Face With Closed Eyes
+😗, Kissing Face
+😚, Kissing Face With Closed Eyes
+😙, Kissing Face With Smiling Eyes
+🥝, Kiwifruit
+🤛, Left-facing Fist
+🤛🏻, Left-facing Fist, Type-1-2
+🤛🏼, Left-facing Fist, Type-3
+🤛🏽, Left-facing Fist, Type-4
+🤛🏾, Left-facing Fist, Type-5
+🤛🏿, Left-facing Fist, Type-6
+🦁, Lion Face
+💄, Lipstick
+🦎, Lizard
+😭, Loudly Crying Face
+🤥, Lying Face
+👨, Man
+👫, Man And Woman Holding Hands
+🤵, Man In Tuxedo
+🤵🏻, Man In Tuxedo, Type-1-2
+🤵🏼, Man In Tuxedo, Type-3
+🤵🏽, Man In Tuxedo, Type-4
+🤵🏾, Man In Tuxedo, Type-5
+🤵🏿, Man In Tuxedo, Type-6
+👲🏻, Man With Chinese Cap, Type-1-2
+👲🏼, Man With Chinese Cap, Type-3
+👲🏽, Man With Chinese Cap, Type-4
+👲🏾, Man With Chinese Cap, Type-5
+👲🏿, Man With Chinese Cap, Type-6
+👲, Man With Gua Pi Mao ≊ Man With Chinese Cap
+👳, Man With Turban ≊ Person With Turban
+👨🏻, Man, Type-1-2
+👨🏼, Man, Type-3
+👨🏽, Man, Type-4
+👨🏾, Man, Type-5
+👨🏿, Man, Type-6
+🥋, Martial Arts Uniform
+🤑, Money-mouth Face
+🤶, Mother Christmas
+🤶🏻, Mother Christmas, Type-1-2
+🤶🏼, Mother Christmas, Type-3
+🤶🏽, Mother Christmas, Type-4
+🤶🏾, Mother Christmas, Type-5
+🤶🏿, Mother Christmas, Type-6
+💅, Nail Polish
+💅🏻, Nail Polish, Type-1-2
+💅🏼, Nail Polish, Type-3
+💅🏽, Nail Polish, Type-4
+💅🏾, Nail Polish, Type-5
+💅🏿, Nail Polish, Type-6
+🤢, Nauseated Face
+🤓, Nerd Face
+😐, Neutral Face
+👴🏻, Old Man, Type-1-2
+👴🏼, Old Man, Type-3
+👴🏽, Old Man, Type-4
+👴🏾, Old Man, Type-5
+👴🏿, Old Man, Type-6
+👵🏻, Old Woman, Type-1-2
+👵🏼, Old Woman, Type-3
+👵🏽, Old Woman, Type-4
+👵🏾, Old Woman, Type-5
+👵🏿, Old Woman, Type-6
+👴, Older Man ≊ Old Man
+👵, Older Woman ≊ Old Woman
+🦉, Owl
+🥞, Pancakes
+🥜, Peanuts
+😔, Pensive Face
+🤼🏻, People Wrestling, Type-1-2
+🤼🏼, People Wrestling, Type-3
+🤼🏽, People Wrestling, Type-4
+🤼🏾, People Wrestling, Type-5
+🤼🏿, People Wrestling, Type-6
+😣, Persevering Face
+🙇, Person Bowing Deeply ≊ Person Bowing
+🙇🏻, Person Bowing, Type-1-2
+🙇🏼, Person Bowing, Type-3
+🙇🏽, Person Bowing, Type-4
+🙇🏾, Person Bowing, Type-5
+🙇🏿, Person Bowing, Type-6
+🤸, Person Doing Cartwheel
+🤸🏻, Person Doing Cartwheel, Type-1-2
+🤸🏼, Person Doing Cartwheel, Type-3
+🤸🏽, Person Doing Cartwheel, Type-4
+🤸🏾, Person Doing Cartwheel, Type-5
+🤸🏿, Person Doing Cartwheel, Type-6
+🤦🏻, Person Facepalming, Type-1-2
+🤦🏼, Person Facepalming, Type-3
+🤦🏽, Person Facepalming, Type-4
+🤦🏾, Person Facepalming, Type-5
+🤦🏿, Person Facepalming, Type-6
+🙍, Person Frowning
+🙍🏻, Person Frowning, Type-1-2
+🙍🏼, Person Frowning, Type-3
+🙍🏽, Person Frowning, Type-4
+🙍🏾, Person Frowning, Type-5
+🙍🏿, Person Frowning, Type-6
+🙅🏻, Person Gesturing Not Ok, Type-1-2
+🙅🏼, Person Gesturing Not Ok, Type-3
+🙅🏽, Person Gesturing Not Ok, Type-4
+🙅🏾, Person Gesturing Not Ok, Type-5
+🙅🏿, Person Gesturing Not Ok, Type-6
+🙆🏻, Person Gesturing Ok, Type-1-2
+🙆🏼, Person Gesturing Ok, Type-3
+🙆🏽, Person Gesturing Ok, Type-4
+🙆🏾, Person Gesturing Ok, Type-5
+🙆🏿, Person Gesturing Ok, Type-6
+💇🏻, Person Getting Haircut, Type-1-2
+💇🏼, Person Getting Haircut, Type-3
+💇🏽, Person Getting Haircut, Type-4
+💇🏾, Person Getting Haircut, Type-5
+💇🏿, Person Getting Haircut, Type-6
+💆🏻, Person Getting Massage, Type-1-2
+💆🏼, Person Getting Massage, Type-3
+💆🏽, Person Getting Massage, Type-4
+💆🏾, Person Getting Massage, Type-5
+💆🏿, Person Getting Massage, Type-6
+🤹🏻, Person Juggling, Type-1-2
+🤹🏼, Person Juggling, Type-3
+🤹🏽, Person Juggling, Type-4
+🤹🏾, Person Juggling, Type-5
+🤹🏿, Person Juggling, Type-6
+🤾🏻, Person Playing Handball, Type-1-2
+🤾🏼, Person Playing Handball, Type-3
+🤾🏽, Person Playing Handball, Type-4
+🤾🏾, Person Playing Handball, Type-5
+🤾🏿, Person Playing Handball, Type-6
+🤽🏻, Person Playing Water Polo, Type-1-2
+🤽🏼, Person Playing Water Polo, Type-3
+🤽🏽, Person Playing Water Polo, Type-4
+🤽🏾, Person Playing Water Polo, Type-5
+🤽🏿, Person Playing Water Polo, Type-6
+🙎🏻, Person Pouting, Type-1-2
+🙎🏼, Person Pouting, Type-3
+🙎🏽, Person Pouting, Type-4
+🙎🏾, Person Pouting, Type-5
+🙎🏿, Person Pouting, Type-6
+🙌, Person Raising Both Hands In Celebration ≊ Person Raising Hands
+🙋🏻, Person Raising Hand, Type-1-2
+🙋🏼, Person Raising Hand, Type-3
+🙋🏽, Person Raising Hand, Type-4
+🙋🏾, Person Raising Hand, Type-5
+🙋🏿, Person Raising Hand, Type-6
+🙌🏻, Person Raising Hands, Type-1-2
+🙌🏼, Person Raising Hands, Type-3
+🙌🏽, Person Raising Hands, Type-4
+🙌🏾, Person Raising Hands, Type-5
+🙌🏿, Person Raising Hands, Type-6
+🤷🏻, Person Shrugging, Type-1-2
+🤷🏼, Person Shrugging, Type-3
+🤷🏽, Person Shrugging, Type-4
+🤷🏾, Person Shrugging, Type-5
+🤷🏿, Person Shrugging, Type-6
+💁🏻, Person Tipping Hand, Type-1-2
+💁🏼, Person Tipping Hand, Type-3
+💁🏽, Person Tipping Hand, Type-4
+💁🏾, Person Tipping Hand, Type-5
+💁🏿, Person Tipping Hand, Type-6
+👱, Person With Blond Hair ≊ Blond Person
+🙏, Person With Folded Hands ≊ Folded Hands
+🙎, Person With Pouting Face ≊ Person Pouting
+👳🏻, Person With Turban, Type-1-2
+👳🏼, Person With Turban, Type-3
+👳🏽, Person With Turban, Type-4
+👳🏾, Person With Turban, Type-5
+👳🏿, Person With Turban, Type-6
+👮, Police Officer
+👮🏻, Police Officer, Type-1-2
+👮🏼, Police Officer, Type-3
+👮🏽, Police Officer, Type-4
+👮🏾, Police Officer, Type-5
+👮🏿, Police Officer, Type-6
+🥔, Potato
+😾, Pouting Cat Face
+😡, Pouting Face
+🤰, Pregnant Woman
+🤰🏻, Pregnant Woman, Type-1-2
+🤰🏼, Pregnant Woman, Type-3
+🤰🏽, Pregnant Woman, Type-4
+🤰🏾, Pregnant Woman, Type-5
+🤰🏿, Pregnant Woman, Type-6
+🤴, Prince
+🤴🏻, Prince, Type-1-2
+🤴🏼, Prince, Type-3
+🤴🏽, Prince, Type-4
+🤴🏾, Prince, Type-5
+🤴🏿, Prince, Type-6
+👸, Princess
+👸🏻, Princess, Type-1-2
+👸🏼, Princess, Type-3
+👸🏽, Princess, Type-4
+👸🏾, Princess, Type-5
+👸🏿, Princess, Type-6
+🤚, Raised Back Of Hand
+🤚🏻, Raised Back Of Hand, Type-1-2
+🤚🏼, Raised Back Of Hand, Type-3
+🤚🏽, Raised Back Of Hand, Type-4
+🤚🏾, Raised Back Of Hand, Type-5
+🤚🏿, Raised Back Of Hand, Type-6
+😌, Relieved Face
+🦏, Rhinoceros
+🤜, Right-facing Fist
+🤜🏻, Right-facing Fist, Type-1-2
+🤜🏼, Right-facing Fist, Type-3
+🤜🏽, Right-facing Fist, Type-4
+🤜🏾, Right-facing Fist, Type-5
+🤜🏿, Right-facing Fist, Type-6
+🤖, Robot Face
+🤣, Rolling On The Floor Laughing
+🦂, Scorpion
+🥈, Second Place Medal ≊ 2nd Place Medal
+🙈, See-no-evil Monkey ≊ See-no-evil
+🤳, Selfie
+🤳🏻, Selfie, Type-1-2
+🤳🏼, Selfie, Type-3
+🤳🏽, Selfie, Type-4
+🤳🏾, Selfie, Type-5
+🤳🏿, Selfie, Type-6
+🥘, Shallow Pan Of Food
+🦈, Shark
+🦐, Shrimp
+🤷, Shrug ≊ Person Shrugging
+🤘, Sign Of The Horns
+🤘🏻, Sign Of The Horns, Type-1-2
+🤘🏼, Sign Of The Horns, Type-3
+🤘🏽, Sign Of The Horns, Type-4
+🤘🏾, Sign Of The Horns, Type-5
+🤘🏿, Sign Of The Horns, Type-6
+💀, Skull
+😴, Sleeping Face
+😪, Sleepy Face
+🙁, Slightly Frowning Face
+🙂, Slightly Smiling Face
+😻, Smiling Cat Face With Heart-shaped Eyes ≊ Smiling Cat Face With Heart-eyes
+😺, Smiling Cat Face With Open Mouth
+😇, Smiling Face With Halo
+😍, Smiling Face With Heart-shaped Eyes ≊ Smiling Face With Heart-eyes
+😈, Smiling Face With Horns
+😃, Smiling Face With Open Mouth
+😅, Smiling Face With Open Mouth And Cold Sweat ≊ Smiling Face With Open Mouth
+😄, Smiling Face With Open Mouth And Smiling Eyes ≊ Smiling Face With Open Mouth
+😆, Smiling Face With Open Mouth And Tightly-closed Eyes ≊ Smiling Face With Open Mouth
+😊, Smiling Face With Smiling Eyes
+😎, Smiling Face With Sunglasses
+😏, Smirking Face
+🤧, Sneezing Face
+🙊, Speak-no-evil Monkey ≊ Speak-no-evil
+🥄, Spoon
+🦑, Squid
+🥙, Stuffed Flatbread
+🤔, Thinking Face
+🥉, Third Place Medal ≊ 3rd Place Medal
+😫, Tired Face
+🥃, Tumbler Glass
+🦃, Turkey
+👬, Two Men Holding Hands
+👭, Two Women Holding Hands
+😒, Unamused Face
+🦄, Unicorn Face
+🙃, Upside-down Face
+🤽, Water Polo ≊ Person Playing Water Polo
+🙀, Weary Cat Face
+😩, Weary Face
+🥀, Wilted Flower
+😉, Winking Face
+👩, Woman
+💃🏻, Woman Dancing, Type-1-2
+💃🏼, Woman Dancing, Type-3
+💃🏽, Woman Dancing, Type-4
+💃🏾, Woman Dancing, Type-5
+💃🏿, Woman Dancing, Type-6
+👯, Woman With Bunny Ears ≊ People Partying
+👩🏻, Woman, Type-1-2
+👩🏼, Woman, Type-3
+👩🏽, Woman, Type-4
+👩🏾, Woman, Type-5
+👩🏿, Woman, Type-6
+😟, Worried Face
+🤼, Wrestlers ≊ People Wrestling
+🤐, Zipper-mouth Face
+💢, Anger Symbol
+🐜, Ant
+👟, Athletic Shoe ≊ Running Shoe
+🐤, Baby Chick
+👇🏻, Backhand Index Pointing Down, Type-1-2
+👇🏼, Backhand Index Pointing Down, Type-3
+👇🏽, Backhand Index Pointing Down, Type-4
+👇🏾, Backhand Index Pointing Down, Type-5
+👇🏿, Backhand Index Pointing Down, Type-6
+👈🏻, Backhand Index Pointing Left, Type-1-2
+👈🏼, Backhand Index Pointing Left, Type-3
+👈🏽, Backhand Index Pointing Left, Type-4
+👈🏾, Backhand Index Pointing Left, Type-5
+👈🏿, Backhand Index Pointing Left, Type-6
+👉🏻, Backhand Index Pointing Right, Type-1-2
+👉🏼, Backhand Index Pointing Right, Type-3
+👉🏽, Backhand Index Pointing Right, Type-4
+👉🏾, Backhand Index Pointing Right, Type-5
+👉🏿, Backhand Index Pointing Right, Type-6
+👆🏻, Backhand Index Pointing Up, Type-1-2
+👆🏼, Backhand Index Pointing Up, Type-3
+👆🏽, Backhand Index Pointing Up, Type-4
+👆🏾, Backhand Index Pointing Up, Type-5
+👆🏿, Backhand Index Pointing Up, Type-6
+🐫, Bactrian Camel ≊ Two-hump Camel
+💵, Banknote With Dollar Sign ≊ Dollar Banknote
+💶, Banknote With Euro Sign ≊ Euro Banknote
+💷, Banknote With Pound Sign ≊ Pound Banknote
+💴, Banknote With Yen Sign ≊ Yen Banknote
+📊, Bar Chart
+💈, Barber Pole
+🐻, Bear Face
+💓, Beating Heart
+👙, Bikini
+🐦, Bird
+🐡, Blowfish
+💙, Blue Heart
+🐗, Boar
+💣, Bomb
+📑, Bookmark Tabs
+💐, Bouquet
+💼, Briefcase
+💔, Broken Heart
+🐛, Bug
+👤, Bust In Silhouette
+👥, Busts In Silhouette
+📅, Calendar
+📇, Card Index
+🐈, Cat
+🐱, Cat Face
+📉, Chart With Downwards Trend ≊ Chart Decreasing
+💹, Chart With Upwards Trend And Yen Sign ≊ Chart Increasing With Yen
+📈, Chart With Upwards Trend ≊ Chart Increasing
+🐔, Chicken
+🐿, Chipmunk
+👏, Clapping Hands Sign ≊ Clapping Hands
+👏🏻, Clapping Hands, Type-1-2
+👏🏼, Clapping Hands, Type-3
+👏🏽, Clapping Hands, Type-4
+👏🏾, Clapping Hands, Type-5
+👏🏿, Clapping Hands, Type-6
+📋, Clipboard
+💥, Collision Symbol ≊ Collision
+💑, Couple With Heart
+🐄, Cow
+🐮, Cow Face
+💳, Credit Card
+🐊, Crocodile
+👑, Crown
+💱, Currency Exchange
+💨, Dash Symbol ≊ Dashing
+💠, Diamond Shape With A Dot Inside ≊ Diamond With A Dot
+💫, Dizzy Symbol ≊ Dizzy
+🐕, Dog
+🐶, Dog Face
+🐬, Dolphin
+🐉, Dragon
+🐲, Dragon Face
+👗, Dress
+🐪, Dromedary Camel ≊ Camel
+💧, Droplet
+📀, Dvd
+👂, Ear
+👂🏻, Ear, Type-1-2
+👂🏼, Ear, Type-3
+👂🏽, Ear, Type-4
+👂🏾, Ear, Type-5
+👂🏿, Ear, Type-6
+💡, Electric Light Bulb ≊ Light Bulb
+🐘, Elephant
+👁, Eye
+👁‍🗨, Eye, Left Speech Bubble
+👓, Eyeglasses ≊ Glasses
+👀, Eyes
+📁, File Folder
+🐟, Fish
+👊, Fisted Hand Sign ≊ Oncoming Fist
+💪, Flexed Biceps
+💪🏻, Flexed Biceps, Type-1-2
+💪🏼, Flexed Biceps, Type-3
+💪🏽, Flexed Biceps, Type-4
+💪🏾, Flexed Biceps, Type-5
+💪🏿, Flexed Biceps, Type-6
+💾, Floppy Disk
+👣, Footprints
+🐸, Frog Face
+🐥, Front-facing Baby Chick
+💎, Gem Stone
+🐐, Goat
+💚, Green Heart
+💗, Growing Heart
+🐹, Hamster Face
+👜, Handbag
+🐣, Hatching Chick
+💟, Heart Decoration
+💘, Heart With Arrow
+💝, Heart With Ribbon
+💲, Heavy Dollar Sign
+👠, High-heeled Shoe
+🐝, Honeybee
+🐎, Horse
+🐴, Horse Face
+💯, Hundred Points Symbol ≊ Hundred Points
+👖, Jeans
+👘, Kimono
+💏, Kiss
+💋, Kiss Mark
+🐨, Koala
+🐞, Lady Beetle
+📒, Ledger
+🐆, Leopard
+💌, Love Letter
+👞, Mans Shoe ≊ Manâ€™s Shoe
+💽, Minidisc
+💰, Money Bag
+💸, Money With Wings
+🐒, Monkey
+🐵, Monkey Face
+🐁, Mouse
+🐭, Mouse Face
+👄, Mouth
+👔, Necktie
+👃, Nose
+👃🏻, Nose, Type-1-2
+👃🏼, Nose, Type-3
+👃🏽, Nose, Type-4
+👃🏾, Nose, Type-5
+👃🏿, Nose, Type-6
+📓, Notebook
+🐙, Octopus
+👌, Ok Hand Sign ≊ Ok Hand
+👌🏻, Ok Hand, Type-1-2
+👌🏼, Ok Hand, Type-3
+👌🏽, Ok Hand, Type-4
+👌🏾, Ok Hand, Type-5
+👌🏿, Ok Hand, Type-6
+👊🏻, Oncoming Fist, Type-1-2
+👊🏼, Oncoming Fist, Type-3
+👊🏽, Oncoming Fist, Type-4
+👊🏾, Oncoming Fist, Type-5
+👊🏿, Oncoming Fist, Type-6
+📂, Open File Folder
+👐, Open Hands Sign ≊ Open Hands
+👐🏻, Open Hands, Type-1-2
+👐🏼, Open Hands, Type-3
+👐🏽, Open Hands, Type-4
+👐🏾, Open Hands, Type-5
+👐🏿, Open Hands, Type-6
+💿, Optical Disc
+🐂, Ox
+📄, Page Facing Up
+📃, Page With Curl
+🐼, Panda Face
+📎, Paperclip
+🐾, Paw Prints
+🐧, Penguin
+💻, Personal Computer ≊ Laptop Computer
+🐖, Pig
+🐷, Pig Face
+🐽, Pig Nose
+💩, Pile Of Poo
+💊, Pill
+🐩, Poodle
+👝, Pouch
+💜, Purple Heart
+👛, Purse
+📌, Pushpin
+🐇, Rabbit
+🐰, Rabbit Face
+🐏, Ram
+🐀, Rat
+💞, Revolving Hearts
+💍, Ring
+🐓, Rooster
+📍, Round Pushpin
+💺, Seat
+🐑, Sheep
+💤, Sleeping Symbol ≊ Zzz
+🐌, Snail
+🐍, Snake
+💖, Sparkling Heart
+💬, Speech Balloon
+🐚, Spiral Shell
+💦, Splashing Sweat Symbol ≊ Sweat Droplets
+🐳, Spouting Whale
+📏, Straight Ruler
+💉, Syringe
+👕, T-shirt
+📆, Tear-off Calendar
+💭, Thought Balloon
+👎, Thumbs Down Sign ≊ Thumbs Down
+👎🏻, Thumbs Down, Type-1-2
+👎🏼, Thumbs Down, Type-3
+👎🏽, Thumbs Down, Type-4
+👎🏾, Thumbs Down, Type-5
+👎🏿, Thumbs Down, Type-6
+👍, Thumbs Up Sign ≊ Thumbs Up
+👍🏻, Thumbs Up, Type-1-2
+👍🏼, Thumbs Up, Type-3
+👍🏽, Thumbs Up, Type-4
+👍🏾, Thumbs Up, Type-5
+👍🏿, Thumbs Up, Type-6
+🐅, Tiger
+🐯, Tiger Face
+👅, Tongue
+📐, Triangular Ruler
+🐠, Tropical Fish
+🐢, Turtle
+💕, Two Hearts
+🐃, Water Buffalo
+👋, Waving Hand Sign ≊ Waving Hand
+👋🏻, Waving Hand, Type-1-2
+👋🏼, Waving Hand, Type-3
+👋🏽, Waving Hand, Type-4
+👋🏾, Waving Hand, Type-5
+👋🏿, Waving Hand, Type-6
+💒, Wedding
+🐋, Whale
+👇, White Down Pointing Backhand Index ≊ Backhand Index Pointing Down
+💮, White Flower
+👈, White Left Pointing Backhand Index ≊ Backhand Index Pointing Left
+👉, White Right Pointing Backhand Index ≊ Backhand Index Pointing Right
+👆, White Up Pointing Backhand Index ≊ Backhand Index Pointing Up
+🐺, Wolf Face
+👢, Womans Boots ≊ Womanâ€™s Boot
+👚, Womans Clothes ≊ Womanâ€™s Clothes
+👒, Womans Hat ≊ Womanâ€™s Hat
+👡, Womans Sandal ≊ Womanâ€™s Sandal
+💛, Yellow Heart
+🍼, Baby Bottle
+🍌, Banana
+🍺, Beer Mug
+🍱, Bento Box
+🍾, Bottle With Popping Cork
+🍞, Bread
+🍬, Candy
+🍒, Cherries
+🍫, Chocolate Bar
+🍻, Clinking Beer Mugs
+🍸, Cocktail Glass
+🍚, Cooked Rice
+🍪, Cookie
+🍳, Cooking
+🍛, Curry And Rice ≊ Curry Rice
+🍮, Custard
+🍡, Dango
+🍩, Doughnut
+🍥, Fish Cake With Swirl Design ≊ Fish Cake With Swirl
+🍴, Fork And Knife
+🍽, Fork And Knife With Plate
+🍟, French Fries
+🍤, Fried Shrimp
+🍇, Grapes
+🍏, Green Apple
+🍔, Hamburger
+🍯, Honey Pot
+🍨, Ice Cream
+🍋, Lemon
+🍭, Lollipop
+🍖, Meat On Bone
+🍈, Melon
+🍢, Oden
+🍑, Peach
+🍐, Pear
+🍍, Pineapple
+🍿, Popcorn
+🍲, Pot Of Food
+🍗, Poultry Leg
+🍎, Red Apple
+🍙, Rice Ball
+🍘, Rice Cracker
+🍠, Roasted Sweet Potato
+🍶, Sake Bottle And Cup ≊ Sake
+🍧, Shaved Ice
+🍰, Shortcake
+🍕, Slice Of Pizza ≊ Pizza
+🍦, Soft Ice Cream
+🍝, Spaghetti
+🍜, Steaming Bowl
+🍓, Strawberry
+🍣, Sushi
+🍊, Tangerine
+🍵, Teacup Without Handle
+🍹, Tropical Drink
+🍉, Watermelon
+🍷, Wine Glass
+🚡, Aerial Tramway
+🛬, Airplane Arriving ≊ Airplane Arrival
+🛫, Airplane Departure
+🚑, Ambulance
+📶, Antenna With Bars ≊ Antenna Bars
+🔄, Anticlockwise Downwards And Upwards Open Circle Arrows ≊ Anticlockwise Arrows Button
+🚛, Articulated Lorry
+🚗, Automobile
+🚼, Baby Symbol
+🔙, Back With Leftwards Arrow Above ≊ Back Arrow
+🛄, Baggage Claim
+🗳, Ballot Box With Ballot
+🛀, Bath ≊ Person Taking Bath
+🛁, Bathtub
+🔋, Battery
+🛏, Bed
+🔔, Bell
+🔕, Bell With Cancellation Stroke ≊ Bell With Slash
+🛎, Bellhop Bell
+🚲, Bicycle
+🚴, Bicyclist ≊ Person Biking
+🖤, Black Heart
+🔲, Black Square Button
+📘, Blue Book
+🔖, Bookmark
+📚, Books
+🚌, Bus
+🚏, Bus Stop
+📷, Camera
+📸, Camera With Flash
+🕯, Candle
+🛶, Canoe
+🗃, Card File Box
+🗂, Card Index Dividers
+📣, Cheering Megaphone ≊ Megaphone
+🚸, Children Crossing
+🕗, Clock Face Eight Oclock ≊ Eight Oâ€™clock
+🕣, Clock Face Eight-thirty ≊ Eight-thirty
+🕚, Clock Face Eleven Oclock ≊ Eleven Oâ€™clock
+🕦, Clock Face Eleven-thirty ≊ Eleven-thirty
+🕔, Clock Face Five Oclock ≊ Five Oâ€™clock
+🕠, Clock Face Five-thirty ≊ Five-thirty
+🕓, Clock Face Four Oclock ≊ Four Oâ€™clock
+🕟, Clock Face Four-thirty ≊ Four-thirty
+🕘, Clock Face Nine Oclock ≊ Nine Oâ€™clock
+🕤, Clock Face Nine-thirty ≊ Nine-thirty
+🕐, Clock Face One Oclock ≊ One Oâ€™clock
+🕜, Clock Face One-thirty ≊ One-thirty
+🕖, Clock Face Seven Oclock ≊ Seven Oâ€™clock
+🕢, Clock Face Seven-thirty ≊ Seven-thirty
+🕕, Clock Face Six Oclock ≊ Six Oâ€™clock
+🕡, Clock Face Six-thirty ≊ Six-thirty
+🕙, Clock Face Ten Oclock ≊ Ten Oâ€™clock
+🕥, Clock Face Ten-thirty ≊ Ten-thirty
+🕒, Clock Face Three Oclock ≊ Three Oâ€™clock
+🕞, Clock Face Three-thirty ≊ Three-thirty
+🕛, Clock Face Twelve Oclock ≊ Twelve Oâ€™clock
+🕧, Clock Face Twelve-thirty ≊ Twelve-thirty
+🕑, Clock Face Two Oclock ≊ Two Oâ€™clock
+🕝, Clock Face Two-thirty ≊ Two-thirty
+🔃, Clockwise Downwards And Upwards Open Circle Arrows ≊ Clockwise Vertical Arrows
+🔂, Clockwise Rightwards And Leftwards Open Circle Arrows With Circled One Overlay ≊ Repeat Single Button
+🔁, Clockwise Rightwards And Leftwards Open Circle Arrows ≊ Repeat Button
+📕, Closed Book
+🔐, Closed Lock With Key
+📪, Closed Mailbox With Lowered Flag
+📫, Closed Mailbox With Raised Flag
+🗜, Compression
+🚧, Construction Sign ≊ Construction
+🛋, Couch And Lamp
+🔮, Crystal Ball
+🛃, Customs
+🗡, Dagger Knife ≊ Dagger
+🕶, Dark Sunglasses ≊ Sunglasses
+🚚, Delivery Truck
+🖥, Desktop Computer
+🕵🏻, Detective, Type-1-2
+🕵🏼, Detective, Type-3
+🕵🏽, Detective, Type-4
+🕵🏾, Detective, Type-5
+🕵🏿, Detective, Type-6
+🚯, Do Not Litter Symbol ≊ No Littering
+🚪, Door
+🕊, Dove Of Peace ≊ Dove
+🔻, Down-pointing Red Triangle ≊ Red Triangle Pointed Down
+🔽, Down-pointing Small Red Triangle ≊ Down Button
+📧, E-mail Symbol ≊ E-mail
+🔌, Electric Plug
+🔦, Electric Torch ≊ Flashlight
+🔚, End With Leftwards Arrow Above ≊ End Arrow
+📩, Envelope With Downwards Arrow Above ≊ Envelope With Arrow
+📠, Fax Machine
+🗄, File Cabinet
+📽, Film Projector
+🔥, Fire
+🚒, Fire Engine
+🖼, Frame With Picture
+📗, Green Book
+🔨, Hammer
+🛠, Hammer And Wrench
+🚁, Helicopter
+🔆, High Brightness Symbol ≊ Bright Button
+🚄, High-speed Train
+🚅, High-speed Train With Bullet Nose
+🔪, Hocho ≊ Kitchen Knife
+🕳, Hole
+🚥, Horizontal Traffic Light
+📥, Inbox Tray
+📨, Incoming Envelope
+🔠, Input Symbol For Latin Capital Letters ≊ Input Latin Uppercase
+🔤, Input Symbol For Latin Letters ≊ Input Latin Letters
+🔡, Input Symbol For Latin Small Letters ≊ Input Latin Lowercase
+🔢, Input Symbol For Numbers ≊ Input Numbers
+🔣, Input Symbol For Symbols ≊ Input Symbols
+🔰, Japanese Symbol For Beginner
+🕹, Joystick
+🕋, Kaaba
+🔑, Key
+🔟, Keycap Ten ≊ Keycap #
+🔵, Large Blue Circle ≊ Blue Circle
+🔷, Large Blue Diamond
+🔶, Large Orange Diamond
+🔴, Large Red Circle ≊ Red Circle
+🛅, Left Luggage
+🗨, Left Speech Bubble
+🔍, Left-pointing Magnifying Glass
+🚈, Light Rail
+🔗, Link Symbol ≊ Link
+🖇, Linked Paperclips
+🔒, Lock
+🔏, Lock With Ink Pen ≊ Lock With Pen
+🔅, Low Brightness Symbol ≊ Dim Button
+🖊, Lower Left Ballpoint Pen ≊ Pen
+🖍, Lower Left Crayon ≊ Crayon
+🖋, Lower Left Fountain Pen ≊ Fountain Pen
+🖌, Lower Left Paintbrush ≊ Paintbrush
+🕺, Man Dancing
+🕺🏻, Man Dancing, Type-1-2
+🕺🏼, Man Dancing, Type-3
+🕺🏽, Man Dancing, Type-4
+🕺🏾, Man Dancing, Type-5
+🕺🏿, Man Dancing, Type-6
+🕴, Man In Business Suit Levitating
+🕰, Mantelpiece Clock
+📝, Memo
+🕎, Menorah With Nine Branches ≊ Menorah
+🚹, Mens Symbol ≊ Men’s Room
+🚇, Metro
+🔬, Microscope
+🖕🏻, Middle Finger, Type-1-2
+🖕🏼, Middle Finger, Type-3
+🖕🏽, Middle Finger, Type-4
+🖕🏾, Middle Finger, Type-5
+🖕🏿, Middle Finger, Type-6
+🚐, Minibus
+📱, Mobile Phone
+📴, Mobile Phone Off
+📲, Mobile Phone With Rightwards Arrow At Left ≊ Mobile Phone With Arrow
+🚝, Monorail
+🕌, Mosque
+🛥, Motor Boat
+🛵, Motor Scooter
+🛣, Motorway
+🗻, Mount Fuji
+🚵, Mountain Bicyclist ≊ Person Mountain Biking
+🚠, Mountain Cableway
+🚞, Mountain Railway
+🗿, Moyai ≊ Moai
+📛, Name Badge
+📰, Newspaper
+🚳, No Bicycles
+🚫, No Entry Sign ≊ Prohibited
+📵, No Mobile Phones
+🔞, No One Under Eighteen Symbol ≊ No One Under Eighteen
+🚷, No Pedestrians
+🚭, No Smoking Symbol ≊ No Smoking
+🚱, Non-potable Water Symbol ≊ Non-potable Water
+📔, Notebook With Decorative Cover
+🔩, Nut And Bolt
+🛑, Octagonal Sign ≊ Stop Sign
+🛢, Oil Drum
+🗝, Old Key
+🕉, Om Symbol ≊ Om
+🔛, On With Exclamation Mark With Left Right Arrow Above ≊ On! Arrow
+🚘, Oncoming Automobile
+🚍, Oncoming Bus
+🚔, Oncoming Police Car
+🚖, Oncoming Taxi
+📖, Open Book
+🔓, Open Lock
+📭, Open Mailbox With Lowered Flag
+📬, Open Mailbox With Raised Flag
+📙, Orange Book
+📤, Outbox Tray
+📦, Package
+📟, Pager
+🛳, Passenger Ship
+🛂, Passport Control
+🚶, Pedestrian ≊ Person Walking
+🚴🏻, Person Biking, Type-1-2
+🚴🏼, Person Biking, Type-3
+🚴🏽, Person Biking, Type-4
+🚴🏾, Person Biking, Type-5
+🚴🏿, Person Biking, Type-6
+🚵🏻, Person Mountain Biking, Type-1-2
+🚵🏼, Person Mountain Biking, Type-3
+🚵🏽, Person Mountain Biking, Type-4
+🚵🏾, Person Mountain Biking, Type-5
+🚵🏿, Person Mountain Biking, Type-6
+🚣🏻, Person Rowing Boat, Type-1-2
+🚣🏼, Person Rowing Boat, Type-3
+🚣🏽, Person Rowing Boat, Type-4
+🚣🏾, Person Rowing Boat, Type-5
+🚣🏿, Person Rowing Boat, Type-6
+🛀🏻, Person Taking Bath, Type-1-2
+🛀🏼, Person Taking Bath, Type-3
+🛀🏽, Person Taking Bath, Type-4
+🛀🏾, Person Taking Bath, Type-5
+🛀🏿, Person Taking Bath, Type-6
+🚶🏻, Person Walking, Type-1-2
+🚶🏼, Person Walking, Type-3
+🚶🏽, Person Walking, Type-4
+🚶🏾, Person Walking, Type-5
+🚶🏿, Person Walking, Type-6
+🔫, Pistol
+🛐, Place Of Worship
+🚓, Police Car
+🚨, Police Cars Revolving Light ≊ Police Carâ€™s Light
+📯, Postal Horn
+📮, Postbox
+🚰, Potable Water Symbol ≊ Potable Water
+📿, Prayer Beads
+🖨, Printer
+📢, Public Address Loudspeaker ≊ Loudspeaker
+🚮, Put Litter In Its Place Symbol ≊ Litter In Bin Sign
+📻, Radio
+🔘, Radio Button
+🚃, Railway Car
+🛤, Railway Track
+🖐, Raised Hand With Fingers Splayed
+🖐🏻, Raised Hand With Fingers Splayed, Type-1-2
+🖐🏼, Raised Hand With Fingers Splayed, Type-3
+🖐🏽, Raised Hand With Fingers Splayed, Type-4
+🖐🏾, Raised Hand With Fingers Splayed, Type-5
+🖐🏿, Raised Hand With Fingers Splayed, Type-6
+🖖, Raised Hand With Part Between Middle And Ring Fingers ≊ Vulcan Salute
+🚙, Recreational Vehicle
+🚻, Restroom
+🖕, Reversed Hand With Middle Finger Extended ≊ Middle Finger
+🗯, Right Anger Bubble
+🔎, Right-pointing Magnifying Glass
+🚀, Rocket
+🗞, Rolled-up Newspaper
+🚣, Rowboat ≊ Person Rowing Boat
+🛰, Satellite
+📡, Satellite Antenna
+🛴, Scooter ≊ Kick Scooter
+📜, Scroll
+🛡, Shield
+🚢, Ship
+🛍, Shopping Bags
+🛒, Shopping Trolley ≊ Shopping Cart
+🚿, Shower
+🗾, Silhouette Of Japan ≊ Map Of Japan
+🔯, Six Pointed Star With Middle Dot ≊ Dotted Six-pointed Star
+🛌, Sleeping Accommodation ≊ Person In Bed
+🕵, Sleuth Or Spy ≊ Detective
+🛩, Small Airplane
+🔹, Small Blue Diamond
+🔸, Small Orange Diamond
+🚬, Smoking Symbol ≊ Smoking
+🔜, Soon With Rightwards Arrow Above ≊ Soon Arrow
+🔈, Speaker
+🔇, Speaker With Cancellation Stroke ≊ Speaker Off
+🔉, Speaker With One Sound Wave ≊ Speaker On
+🔊, Speaker With Three Sound Waves ≊ Speaker Loud
+🗣, Speaking Head In Silhouette ≊ Speaking Head
+🚤, Speedboat
+🕷, Spider
+🕸, Spider Web
+🗓, Spiral Calendar Pad ≊ Spiral Calendar
+🗒, Spiral Note Pad ≊ Spiral Notepad
+🚉, Station
+🗽, Statue Of Liberty
+🚂, Steam Locomotive ≊ Locomotive
+🚟, Suspension Railway
+🕍, Synagogue
+🚕, Taxi
+📞, Telephone Receiver
+🔭, Telescope
+📺, Television
+🖱, Three Button Mouse ≊ Computer Mouse
+🚽, Toilet
+🗼, Tokyo Tower
+🔝, Top With Upwards Arrow Above ≊ Top Arrow
+🖲, Trackball
+🚜, Tractor
+🚆, Train
+🚊, Tram
+🚋, Tram Car
+🚩, Triangular Flag On Post ≊ Triangular Flag
+🔱, Trident Emblem
+🚎, Trolleybus
+🔀, Twisted Rightwards Arrows ≊ Shuffle Tracks Button
+🔺, Up-pointing Red Triangle ≊ Red Triangle Pointed Up
+🔼, Up-pointing Small Red Triangle ≊ Up Button
+🚦, Vertical Traffic Light
+📳, Vibration Mode
+📹, Video Camera
+📼, Videocassette
+🖖🏻, Vulcan Salute, Type-1-2
+🖖🏼, Vulcan Salute, Type-3
+🖖🏽, Vulcan Salute, Type-4
+🖖🏾, Vulcan Salute, Type-5
+🖖🏿, Vulcan Salute, Type-6
+🗑, Wastebasket
+🚾, Water Closet
+🔳, White Square Button
+🚺, Womens Symbol ≊ Women’s Room
+🗺, World Map
+🔧, Wrench
+🎟, Admission Tickets
+✈, Airplane
+⏰, Alarm Clock
+⚗, Alembic
+🏈, American Football
+🏺, Amphora
+⚓, Anchor
+♒, Aquarius
+♈, Aries
+⤵, Arrow Pointing Rightwards Then Curving Downwards ≊ Right Arrow Curving Down
+⤴, Arrow Pointing Rightwards Then Curving Upwards ≊ Right Arrow Curving Up
+🎨, Artist Palette
+⚛, Atom Symbol
+🍆, Aubergine ≊ Eggplant
+🏧, Automated Teller Machine ≊ Atm Sign
+🏸, Badminton Racquet And Shuttlecock ≊ Badminton
+🎈, Balloon
+☑, Ballot Box With Check
+🏦, Bank
+⚾, Baseball
+🏀, Basketball And Hoop ≊ Basketball
+🏖, Beach With Umbrella
+🎱, Billiards
+☣, Biohazard Sign ≊ Biohazard
+🎂, Birthday Cake
+⏺, Black Circle For Record ≊ Record Button
+♣, Black Club Suit ≊ Club Suit
+♦, Black Diamond Suit ≊ Diamond Suit
+⏬, Black Down-pointing Double Triangle ≊ Fast Down Button
+♥, Black Heart Suit ≊ Heart Suit
+⬛, Black Large Square
+⏮, Black Left-pointing Double Triangle With Vertical Bar ≊ Last Track Button
+⏪, Black Left-pointing Double Triangle ≊ Fast Reverse Button
+◀, Black Left-pointing Triangle ≊ Reverse Button
+◾, Black Medium Small Square ≊ Black Medium-small Square
+◼, Black Medium Square
+✒, Black Nib
+❓, Black Question Mark Ornament ≊ Question Mark
+⏭, Black Right-pointing Double Triangle With Vertical Bar ≊ Next Track Button
+⏩, Black Right-pointing Double Triangle ≊ Fast-forword Button
+⏯, Black Right-pointing Triangle With Double Vertical Bar ≊ Play Or Pause Button
+▶, Black Right-pointing Triangle ≊ Play Button
+➡, Black Rightwards Arrow ≊ Right Arrow
+✂, Black Scissors ≊ Scissors
+▪, Black Small Square
+♠, Black Spade Suit ≊ Spade Suit
+⏹, Black Square For Stop ≊ Stop Button
+☀, Black Sun With Rays ≊ Sun
+☎, Black Telephone ≊ Telephone
+♻, Black Universal Recycling Symbol ≊ Recycling Symbol
+⏫, Black Up-pointing Double Triangle ≊ Fast Up Button
+🌼, Blossom
+🏹, Bow And Arrow
+🎳, Bowling
+🌉, Bridge At Night
+🏗, Building Construction
+🌯, Burrito
+🌵, Cactus
+🏕, Camping
+♋, Cancer
+♑, Capricorn
+🎠, Carousel Horse
+🎏, Carp Streamer
+⛓, Chains
+🏁, Chequered Flag
+🌸, Cherry Blossom
+🌰, Chestnut
+🎄, Christmas Tree
+⛪, Church
+🎦, Cinema
+🉑, Circled Ideograph Accept ≊ Circled Accept Ideograph
+🉐, Circled Ideograph Advantage ≊ Circled Advantage Ideograph
+㊗, Circled Ideograph Congratulation ≊ Circled Congratulate Ideograph
+㊙, Circled Ideograph Secret ≊ Circled Secret Ideograph
+Ⓜ, Circled Latin Capital Letter M ≊ Circled Letter M
+🎪, Circus Tent
+🏙, Cityscape
+🌆, Cityscape At Dusk
+🎬, Clapper Board
+🏛, Classical Building
+🌂, Closed Umbrella
+☁, Cloud
+🌩, Cloud With Lightning
+🌧, Cloud With Rain
+🌨, Cloud With Snow
+🌪, Cloud With Tornado ≊ Tornado
+⚰, Coffin
+☄, Comet
+🎊, Confetti Ball
+🎛, Control Knobs
+🏪, Convenience Store
+©, Copyright Sign ≊ Copyright
+🌙, Crescent Moon
+🏏, Cricket Bat And Ball ≊ Cricket
+❌, Cross Mark
+🎌, Crossed Flags
+⚔, Crossed Swords
+➰, Curly Loop
+🌀, Cyclone
+🌳, Deciduous Tree
+🏬, Department Store
+🏚, Derelict House Building
+🏜, Desert
+🏝, Desert Island
+🎯, Direct Hit
+➿, Double Curly Loop
+‼, Double Exclamation Mark
+⏸, Double Vertical Bar ≊ Pause Button
+⬇, Downwards Black Arrow ≊ Down Arrow
+🌽, Ear Of Maize ≊ Ear Of Corn
+🌾, Ear Of Rice ≊ Sheaf Of Rice
+🌎, Earth Globe Americas ≊ Globe Showing Americas
+🌏, Earth Globe Asia-australia ≊ Globe Showing Asia-australia
+🌍, Earth Globe Europe-africa ≊ Globe Showing Europe-africa
+✴, Eight Pointed Black Star ≊ Eight-pointed Star
+✳, Eight Spoked Asterisk ≊ Eight-spoked Asterisk
+⏏, Eject Symbol ≊ Eject Button
+🏻, Emoji Modifier Fitzpatrick Type-1-2 ≊ Type-1-2
+🏼, Emoji Modifier Fitzpatrick Type-3 ≊ Type-3
+🏽, Emoji Modifier Fitzpatrick Type-4 ≊ Type-4
+🏾, Emoji Modifier Fitzpatrick Type-5 ≊ Type-5
+🏿, Emoji Modifier Fitzpatrick Type-6 ≊ Type-6
+✉, Envelope
+🏰, European Castle ≊ Castle
+🏤, European Post Office ≊ Post Office
+🌲, Evergreen Tree ≊ Evergreen
+⁉, Exclamation Question Mark
+🏭, Factory
+🍂, Fallen Leaf
+🎅, Father Christmas ≊ Santa Claus
+🎡, Ferris Wheel
+⛴, Ferry
+🏑, Field Hockey Stick And Ball ≊ Field Hockey
+🎞, Film Frames
+🎇, Firework Sparkler ≊ Sparkler
+🎆, Fireworks
+🌓, First Quarter Moon Symbol ≊ First Quarter Moon
+🌛, First Quarter Moon With Face
+🎣, Fishing Pole And Fish ≊ Fishing Pole
+⛳, Flag In Hole
+⚜, Fleur-de-lis
+🎴, Flower Playing Cards
+🌫, Fog
+🌁, Foggy
+⛲, Fountain
+🍀, Four Leaf Clover
+⛽, Fuel Pump
+🌕, Full Moon Symbol ≊ Full Moon
+🌝, Full Moon With Face
+⚱, Funeral Urn
+🎲, Game Die
+⚙, Gear
+♊, Gemini
+🌐, Globe With Meridians
+🌟, Glowing Star
+🏌, Golfer ≊ Person Golfing
+🎓, Graduation Cap
+🎸, Guitar
+⚒, Hammer And Pick
+🎧, Headphone
+❤, Heavy Black Heart ≊ Red Heart
+✔, Heavy Check Mark
+➗, Heavy Division Sign
+❗, Heavy Exclamation Mark Symbol ≊ Exclamation Mark
+❣, Heavy Heart Exclamation Mark Ornament ≊ Heavy Heart Exclamation
+⭕, Heavy Large Circle
+➖, Heavy Minus Sign
+✖, Heavy Multiplication X
+➕, Heavy Plus Sign
+⛑, Helmet With White Cross
+🌿, Herb
+🌺, Hibiscus
+⚡, High Voltage Sign ≊ High Voltage
+🏇, Horse Racing
+🏥, Hospital
+☕, Hot Beverage
+🌭, Hot Dog
+🌶, Hot Pepper
+♨, Hot Springs
+🏨, Hotel
+⌛, Hourglass
+⏳, Hourglass With Flowing Sand
+🏠, House Building
+🏘, House Buildings
+🏡, House With Garden
+🏒, Ice Hockey Stick And Puck
+⛸, Ice Skate
+☝🏻, Index Pointing Up, Type-1-2
+☝🏼, Index Pointing Up, Type-3
+☝🏽, Index Pointing Up, Type-4
+☝🏾, Index Pointing Up, Type-5
+☝🏿, Index Pointing Up, Type-6
+ℹ, Information Source
+🏮, Izakaya Lantern ≊ Red Paper Lantern
+🎃, Jack-o-lantern
+🏯, Japanese Castle
+🎎, Japanese Dolls
+🏣, Japanese Post Office
+⌨, Keyboard
+#️⃣, Keycap #
+*️⃣, Keycap *
+0️⃣, Keycap 0
+1️⃣, Keycap 1
+2️⃣, Keycap 2
+3️⃣, Keycap 3
+4️⃣, Keycap 4
+5️⃣, Keycap 5
+6️⃣, Keycap 6
+7️⃣, Keycap 7
+8️⃣, Keycap 8
+9️⃣, Keycap 9
+🏷, Label
+🌗, Last Quarter Moon Symbol ≊ Last Quarter Moon
+🌜, Last Quarter Moon With Face
+✝, Latin Cross
+🍃, Leaf Fluttering In Wind
+↔, Left Right Arrow ≊ Left-right Arrow
+↩, Leftwards Arrow With Hook ≊ Right Arrow Curving Left
+⬅, Leftwards Black Arrow ≊ Left Arrow
+♌, Leo
+🎚, Level Slider
+♎, Libra
+🏩, Love Hotel
+🀄, Mahjong Tile Red Dragon ≊ Mahjong Red Dragon
+🍁, Maple Leaf
+⚫, Medium Black Circle ≊ Black Circle
+⚪, Medium White Circle ≊ White Circle
+🎤, Microphone
+🎖, Military Medal
+🌌, Milky Way
+🎑, Moon Viewing Ceremony ≊ Moon Ceremony
+⛰, Mountain
+🎥, Movie Camera
+🎶, Multiple Musical Notes ≊ Musical Notes
+🍄, Mushroom
+🎹, Musical Keyboard
+🎵, Musical Note
+🎼, Musical Score
+🏞, National Park
+🆎, Negative Squared Ab ≊ Ab Button
+❎, Negative Squared Cross Mark ≊ Cross Mark Button
+🅰, Negative Squared Latin Capital Letter A ≊ A Button
+🅱, Negative Squared Latin Capital Letter B ≊ B Button
+🅾, Negative Squared Latin Capital Letter O ≊ O Button
+🅿, Negative Squared Latin Capital Letter P ≊ P Button
+🌑, New Moon Symbol ≊ New Moon
+🌚, New Moon With Face ≊ New Moon Face
+🌃, Night With Stars
+⛔, No Entry
+↗, North East Arrow ≊ Up-right Arrow
+↖, North West Arrow ≊ Up-left Arrow
+🏢, Office Building
+⛎, Ophiuchus
+☦, Orthodox Cross
+🌴, Palm Tree
+〽, Part Alternation Mark
+🎉, Party Popper
+☮, Peace Symbol
+✏, Pencil
+🎭, Performing Arts
+🏃🏻, Person Running, Type-1-2
+🏃🏼, Person Running, Type-3
+🏃🏽, Person Running, Type-4
+🏃🏾, Person Running, Type-5
+🏃🏿, Person Running, Type-6
+🏄🏻, Person Surfing, Type-1-2
+🏄🏼, Person Surfing, Type-3
+🏄🏽, Person Surfing, Type-4
+🏄🏾, Person Surfing, Type-5
+🏄🏿, Person Surfing, Type-6
+🏊🏻, Person Swimming, Type-1-2
+🏊🏼, Person Swimming, Type-3
+🏊🏽, Person Swimming, Type-4
+🏊🏾, Person Swimming, Type-5
+🏊🏿, Person Swimming, Type-6
+🏋🏻, Person Weight Lifting, Type-1-2
+🏋🏼, Person Weight Lifting, Type-3
+🏋🏽, Person Weight Lifting, Type-4
+🏋🏾, Person Weight Lifting, Type-5
+🏋🏿, Person Weight Lifting, Type-6
+⛹, Person With Ball
+⛹🏻, Person With Ball, Type-1-2
+⛹🏼, Person With Ball, Type-3
+⛹🏽, Person With Ball, Type-4
+⛹🏾, Person With Ball, Type-5
+⛹🏿, Person With Ball, Type-6
+⛏, Pick
+🎍, Pine Decoration
+♓, Pisces
+🃏, Playing Card Black Joker ≊ Joker
+🏎, Racing Car
+🏍, Racing Motorcycle ≊ Motorcycle
+☢, Radioactive Sign ≊ Radioactive
+🌈, Rainbow
+✊, Raised Fist
+✊🏻, Raised Fist, Type-1-2
+✊🏼, Raised Fist, Type-3
+✊🏽, Raised Fist, Type-4
+✊🏾, Raised Fist, Type-5
+✊🏿, Raised Fist, Type-6
+✋, Raised Hand
+✋🏻, Raised Hand, Type-1-2
+✋🏼, Raised Hand, Type-3
+✋🏽, Raised Hand, Type-4
+✋🏾, Raised Hand, Type-5
+✋🏿, Raised Hand, Type-6
+®, Registered Sign ≊ Registered
+🎗, Reminder Ribbon
+🎀, Ribbon
+↪, Rightwards Arrow With Hook ≊ Left Arrow Curving Right
+🎢, Roller Coaster
+🌹, Rose
+🏵, Rosette
+🏉, Rugby Football
+🏃, Runner ≊ Person Running
+🎽, Running Shirt With Sash ≊ Running Shirt
+♐, Sagittarius
+⛵, Sailboat
+🎅🏻, Santa Claus, Type-1-2
+🎅🏼, Santa Claus, Type-3
+🎅🏽, Santa Claus, Type-4
+🎅🏾, Santa Claus, Type-5
+🎅🏿, Santa Claus, Type-6
+🎷, Saxophone
+⚖, Scales ≊ Balance Scale
+🏫, School
+🎒, School Satchel ≊ School Backpack
+♏, Scorpius
+🌱, Seedling
+☘, Shamrock
+⛩, Shinto Shrine
+🌠, Shooting Star
+🎿, Ski And Ski Boot ≊ Skis
+⛷, Skier
+☠, Skull And Crossbones
+🎰, Slot Machine
+🏔, Snow Capped Mountain ≊ Snow-capped Mountain
+🏂, Snowboarder
+❄, Snowflake
+☃, Snowman
+⛄, Snowman Without Snow
+⚽, Soccer Ball
+↘, South East Arrow ≊ Down-right Arrow
+↙, South West Arrow ≊ Down-left Arrow
+❇, Sparkle
+✨, Sparkles
+🏅, Sports Medal
+🈹, Squared Cjk Unified Ideograph-5272 ≊ Squared Divide Ideograph
+🈴, Squared Cjk Unified Ideograph-5408 ≊ Squared Together Ideograph
+🈺, Squared Cjk Unified Ideograph-55b6 ≊ Squared Operating Ideograph
+🈯, Squared Cjk Unified Ideograph-6307 ≊ Squared Finger Ideograph
+🈷, Squared Cjk Unified Ideograph-6708 ≊ Squared Moon Ideograph
+🈶, Squared Cjk Unified Ideograph-6709 ≊ Squared Exist Ideograph
+🈵, Squared Cjk Unified Ideograph-6e80 ≊ Squared Fullness Ideograph
+🈚, Squared Cjk Unified Ideograph-7121 ≊ Squared Negation Ideograph
+🈸, Squared Cjk Unified Ideograph-7533 ≊ Squared Apply Ideograph
+🈲, Squared Cjk Unified Ideograph-7981 ≊ Squared Prohibit Ideograph
+🈳, Squared Cjk Unified Ideograph-7a7a ≊ Squared Empty Ideograph
+🆑, Squared Cl
+🆒, Squared Cool
+🆓, Squared Free
+🆔, Squared Id
+🈁, Squared Katakana Koko
+🈂, Squared Katakana Sa
+🆕, Squared New
+🆖, Squared Ng
+🆗, Squared Ok
+🆘, Squared Sos
+🆙, Squared Up With Exclamation Mark ≊ Up! Button
+🆚, Squared Vs
+🏟, Stadium
+☪, Star And Crescent
+✡, Star Of David
+⏱, Stopwatch
+🎙, Studio Microphone
+⛅, Sun Behind Cloud
+🌞, Sun With Face
+🌻, Sunflower
+🌅, Sunrise
+🌄, Sunrise Over Mountains
+🌇, Sunset Over Buildings ≊ Sunset
+🏄, Surfer ≊ Person Surfing
+🏊, Swimmer ≊ Person Swimming
+🏓, Table Tennis Paddle And Ball ≊ Ping Pong
+🌮, Taco
+🎋, Tanabata Tree
+♉, Taurus
+🎾, Tennis Racquet And Ball ≊ Tennis
+⛺, Tent
+🌡, Thermometer
+⛈, Thunder Cloud And Rain ≊ Cloud With Lightning And Rain
+🎫, Ticket
+⏲, Timer Clock
+🍅, Tomato
+🎩, Top Hat
+™, Trade Mark Sign ≊ Trade Mark
+🏆, Trophy
+🎺, Trumpet
+🌷, Tulip
+☂, Umbrella
+⛱, Umbrella On Ground
+☔, Umbrella With Rain Drops
+↕, Up Down Arrow ≊ Up-down Arrow
+⬆, Upwards Black Arrow ≊ Up Arrow
+✌, Victory Hand
+✌🏻, Victory Hand, Type-1-2
+✌🏼, Victory Hand, Type-3
+✌🏽, Victory Hand, Type-4
+✌🏾, Victory Hand, Type-5
+✌🏿, Victory Hand, Type-6
+🎮, Video Game
+🎻, Violin
+♍, Virgo
+🌋, Volcano
+🏐, Volleyball
+🌘, Waning Crescent Moon Symbol ≊ Waning Crescent Moon
+🌖, Waning Gibbous Moon Symbol ≊ Waning Gibbous Moon
+⚠, Warning Sign ≊ Warning
+⌚, Watch
+🌊, Water Wave
+🏴, Waving Black Flag
+🏳, Waving White Flag
+〰, Wavy Dash
+🌒, Waxing Crescent Moon Symbol ≊ Waxing Crescent Moon
+🌔, Waxing Gibbous Moon Symbol ≊ Waxing Gibbous Moon
+🏋, Weight Lifter ≊ Person Weight Lifting
+☸, Wheel Of Dharma
+♿, Wheelchair Symbol ≊ Wheelchair
+❕, White Exclamation Mark Ornament ≊ White Exclamation Mark
+☹, White Frowning Face ≊ Frowning Face
+✅, White Heavy Check Mark
+⬜, White Large Square
+◽, White Medium Small Square ≊ White Medium-small Square
+◻, White Medium Square
+⭐, White Medium Star
+❔, White Question Mark Ornament ≊ White Question Mark
+▫, White Small Square
+☺, White Smiling Face ≊ Smiling Face
+🌦, White Sun Behind Cloud With Rain ≊ Sun Behind Cloud With Rain
+🌥, White Sun Behind Cloud ≊ Sun Behind Large Cloud
+🌤, White Sun With Small Cloud ≊ Sun Behind Small Cloud
+☝, White Up Pointing Index ≊ Index Pointing Up
+🌬, Wind Blowing Face ≊ Wind Face
+🎐, Wind Chime
+🎁, Wrapped Present
+✍, Writing Hand
+✍🏻, Writing Hand, Type-1-2
+✍🏼, Writing Hand, Type-3
+✍🏽, Writing Hand, Type-4
+✍🏾, Writing Hand, Type-5
+✍🏿, Writing Hand, Type-6
+☯, Yin Yang
+🇦🇫, Afghanistan
+🇦🇱, Albania
+🇩🇿, Algeria
+🇦🇸, American Samoa
+🇦🇩, Andorra
+🇦🇴, Angola
+🇦🇮, Anguilla
+🇦🇶, Antarctica
+🇦🇬, Antigua
+🇦🇷, Argentina
+🇦🇲, Armenia
+🇦🇼, Aruba
+🇦🇨, Ascension Island
+🇦🇺, Australia
+🇦🇹, Austria
+🇦🇿, Azerbaijan
+🇧🇸, Bahamas
+🇧🇭, Bahrain
+🇧🇩, Bangladesh
+🇧🇧, Barbados
+🇧🇾, Belarus
+🇧🇪, Belgium
+🇧🇿, Belize
+🇧🇯, Benin
+🇧🇲, Bermuda
+🇧🇹, Bhutan
+🇧🇴, Bolivia
+🇧🇦, Bosnia
+🇧🇼, Botswana
+🇧🇻, Bouvet Island
+🇧🇷, Brazil
+🇮🇴, British Indian Ocean Territory
+🇻🇬, British Virgin Islands
+🇧🇳, Brunei
+🇧🇬, Bulgaria
+🇧🇫, Burkina Faso
+🇧🇮, Burundi
+🇰🇭, Cambodia
+🇨🇲, Cameroon
+🇨🇦, Canada
+🇮🇨, Canary Islands
+🇨🇻, Cape Verde
+🇧🇶, Caribbean Netherlands
+🇰🇾, Cayman Islands
+🇨🇫, Central African Republic
+🇪🇦, Ceuta
+🇹🇩, Chad
+🇨🇱, Chile
+🇨🇳, China
+🇨🇽, Christmas Island
+🇨🇵, Clipperton Island
+🇨🇨, Cocos (keeling) Islands
+🇨🇴, Colombia
+🇰🇲, Comoros
+🇨🇬, Congo - Brazzaville
+🇨🇩, Congo - Kinshasa
+🇨🇰, Cook Islands
+🇨🇷, Costa Rica
+🇭🇷, Croatia
+🇨🇺, Cuba
+🇨🇼, Curaã§ao
+🇨🇾, Cyprus
+🇨🇿, Czech Republic
+🇨🇮, Cã´te Dâ€™ivoire
+🇩🇰, Denmark
+🇩🇬, Diego Garcia
+🇩🇯, Djibouti
+🇩🇲, Dominica
+🇩🇴, Dominican Republic
+🇪🇨, Ecuador
+🇪🇬, Egypt
+🇸🇻, El Salvador
+🇬🇶, Equatorial Guinea
+🇪🇷, Eritrea
+🇪🇪, Estonia
+🇪🇹, Ethiopia
+🇪🇺, European Union
+🇫🇰, Falkland Islands
+🇫🇴, Faroe Islands
+🇫🇯, Fiji
+🇫🇮, Finland
+🇫🇷, France
+🇬🇫, French Guiana
+🇵🇫, French Polynesia
+🇹🇫, French Southern Territories
+🇬🇦, Gabon
+🇬🇲, Gambia
+🇬🇪, Georgia
+🇩🇪, Germany
+🇬🇭, Ghana
+🇬🇮, Gibraltar
+🇬🇷, Greece
+🇬🇱, Greenland
+🇬🇩, Grenada
+🇬🇵, Guadeloupe
+🇬🇺, Guam
+🇬🇹, Guatemala
+🇬🇬, Guernsey
+🇬🇳, Guinea
+🇬🇼, Guinea-bissau
+🇬🇾, Guyana
+🇭🇹, Haiti
+🇭🇲, Heard
+🇭🇳, Honduras
+🇭🇰, Hong Kong Sar China
+🇭🇺, Hungary
+🇮🇸, Iceland
+🇮🇳, India
+🇮🇩, Indonesia
+🇮🇷, Iran
+🇮🇶, Iraq
+🇮🇪, Ireland
+🇮🇲, Isle Of Man
+🇮🇱, Israel
+🇮🇹, Italy
+🇯🇲, Jamaica
+🇯🇵, Japan
+🇯🇪, Jersey
+🇯🇴, Jordan
+🇰🇿, Kazakhstan
+🇰🇪, Kenya
+🇰🇮, Kiribati
+🇽🇰, Kosovo
+🇰🇼, Kuwait
+🇰🇬, Kyrgyzstan
+🇱🇦, Laos
+🇱🇻, Latvia
+🇱🇧, Lebanon
+🇱🇸, Lesotho
+🇱🇷, Liberia
+🇱🇾, Libya
+🇱🇮, Liechtenstein
+🇱🇹, Lithuania
+🇱🇺, Luxembourg
+🇲🇴, Macau Sar China
+🇲🇰, Macedonia
+🇲🇬, Madagascar
+🇲🇼, Malawi
+🇲🇾, Malaysia
+🇲🇻, Maldives
+🇲🇱, Mali
+🇲🇹, Malta
+🇲🇭, Marshall Islands
+🇲🇶, Martinique
+🇲🇷, Mauritania
+🇲🇺, Mauritius
+🇾🇹, Mayotte
+🇲🇽, Mexico
+🇫🇲, Micronesia
+🇲🇩, Moldova
+🇲🇨, Monaco
+🇲🇳, Mongolia
+🇲🇪, Montenegro
+🇲🇸, Montserrat
+🇲🇦, Morocco
+🇲🇿, Mozambique
+🇲🇲, Myanmar (burma)
+🇳🇦, Namibia
+🇳🇷, Nauru
+🇳🇵, Nepal
+🇳🇱, Netherlands
+🇳🇨, New Caledonia
+🇳🇿, New Zealand
+🇳🇮, Nicaragua
+🇳🇪, Niger
+🇳🇬, Nigeria
+🇳🇺, Niue
+🇳🇫, Norfolk Island
+🇰🇵, North Korea
+🇲🇵, Northern Mariana Islands
+🇳🇴, Norway
+🇴🇲, Oman
+🇵🇰, Pakistan
+🇵🇼, Palau
+🇵🇸, Palestinian Territories
+🇵🇦, Panama
+🇵🇬, Papua New Guinea
+🇵🇾, Paraguay
+🇵🇪, Peru
+🇵🇭, Philippines
+🇵🇳, Pitcairn Islands
+🇵🇱, Poland
+🇵🇹, Portugal
+🇵🇷, Puerto Rico
+🇶🇦, Qatar
+🇷🇴, Romania
+🇷🇺, Russia
+🇷🇼, Rwanda
+🇷🇪, Rã©union
+🇼🇸, Samoa
+🇸🇲, San Marino
+🇸🇦, Saudi Arabia
+🇸🇳, Senegal
+🇷🇸, Serbia
+🇸🇨, Seychelles
+🇸🇱, Sierra Leone
+🇸🇬, Singapore
+🇸🇽, Sint Maarten
+🇸🇰, Slovakia
+🇸🇮, Slovenia
+🇸🇧, Solomon Islands
+🇸🇴, Somalia
+🇿🇦, South Africa
+🇬🇸, South Georgia
+🇰🇷, South Korea
+🇸🇸, South Sudan
+🇪🇸, Spain
+🇱🇰, Sri Lanka
+🇧🇱, St. Barthã©lemy
+🇸🇭, St. Helena
+🇰🇳, St. Kitts
+🇱🇨, St. Lucia
+🇲🇫, St. Martin
+🇵🇲, St. Pierre
+🇻🇨, St. Vincent
+🇸🇩, Sudan
+🇸🇷, Suriname
+🇸🇯, Svalbard
+🇸🇿, Swaziland
+🇸🇪, Sweden
+🇨🇭, Switzerland
+🇸🇾, Syria
+🇸🇹, Sã£o Tomã©
+🇹🇼, Taiwan
+🇹🇯, Tajikistan
+🇹🇿, Tanzania
+🇹🇭, Thailand
+🇹🇱, Timor-leste
+🇹🇬, Togo
+🇹🇰, Tokelau
+🇹🇴, Tonga
+🇹🇹, Trinidad
+🇹🇦, Tristan Da Cunha
+🇹🇳, Tunisia
+🇹🇷, Turkey
+🇹🇲, Turkmenistan
+🇹🇨, Turks
+🇹🇻, Tuvalu
+🇺🇲, U.s. Outlying Islands
+🇻🇮, U.s. Virgin Islands
+🇺🇬, Uganda
+🇺🇦, Ukraine
+🇦🇪, United Arab Emirates
+🇬🇧, United Kingdom
+🇺🇸, United States
+🇺🇾, Uruguay
+🇺🇿, Uzbekistan
+🇻🇺, Vanuatu
+🇻🇦, Vatican City
+🇻🇪, Venezuela
+🇻🇳, Vietnam
+🇼🇫, Wallis
+🇪🇭, Western Sahara
+🇾🇪, Yemen
+🇿🇲, Zambia
+🇿🇼, Zimbabwe
+🇦🇽, Ã…land Islands

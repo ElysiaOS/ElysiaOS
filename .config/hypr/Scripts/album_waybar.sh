@@ -4,44 +4,68 @@ setsid bash -c '
 
 while true; do
     # Check if Waybar is running
-    if ! pgrep -x "waybar" > /dev/null; then
+    if ! pgrep -x "battery-bar" > /dev/null; then
         echo "Waybar is not running. Waiting..."
         sleep 9
         continue
     fi
 
-    # Check for album art from prioritized players (now includes mpv)
-    album_art=$(playerctl -p kew metadata mpris:artUrl 2>/dev/null || \
-                playerctl -p chromium metadata mpris:artUrl 2>/dev/null || \
-                playerctl -p spotify metadata mpris:artUrl 2>/dev/null || \
-                playerctl -p firefox metadata mpris:artUrl 2>/dev/null || \
-                playerctl -p mpv metadata mpris:artUrl 2>/dev/null)
+    # Get list of active players
+    players=$(playerctl -l 2>/dev/null)
+    index=1
 
-    # If mpv is playing but no art URL is provided, use a default icon
-    if [[ -z $album_art && $(playerctl -p mpv status 2>/dev/null) == "Playing" ]]; then
-        album_art="/path/to/default/video_icon.png"
-        cp "$album_art" /tmp/cover_waybar.png
-        echo "/tmp/cover_waybar.png"
-        sleep 2
-        continue
-    fi
+    # Loop through all detected players
+    for player in $players; do
+        status=$(playerctl -p "$player" status 2>/dev/null)
+        if [[ $status == "Playing" ]]; then
+            # Determine output file name
+            if [[ $index -eq 1 ]]; then
+                output="/tmp/cover_music.png"
+            else
+                output="/tmp/cover_music${index}.png"
+            fi
 
-    if [[ -n $album_art ]]; then
-        # If the album art is a local file, copy it; otherwise download it
-        if [[ "$album_art" =~ ^file:// ]]; then
-            cp "${album_art#file://}" /tmp/cover.jpeg
-        else
-            curl -s "${album_art}" --output "/tmp/cover.jpeg"
+            # Try to get album art
+            album_art=$(playerctl -p "$player" metadata mpris:artUrl 2>/dev/null)
+
+            # Handle mpv fallback
+            if [[ -z $album_art && "$player" == "mpv" ]]; then
+                album_art="/path/to/default/video_icon.png"
+                cp "$album_art" "$output"
+                echo "$output"
+                ((index++))
+                continue
+            fi
+
+            # Skip if no album art at all
+            if [[ -z $album_art ]]; then
+                ((index++))
+                continue
+            fi
+
+            # Copy or download cover image
+            if [[ "$album_art" =~ ^file:// ]]; then
+                cp "${album_art#file://}" /tmp/cover_tmp.jpeg
+            else
+                curl -s "${album_art}" --output "/tmp/cover_tmp.jpeg"
+            fi
+
+            # Convert to circular PNG with alpha using ImageMagick
+            convert /tmp/cover_tmp.jpeg -resize 128x128^ -gravity center -extent 128x128 \
+                \( +clone -threshold -1 -negate -fill white -draw "circle 64,64 64,0" \) \
+                -alpha off -compose CopyOpacity -composite "$output"
+
+            echo "$output"
+            ((index++))
         fi
+    done
 
-        # Convert to circular PNG with alpha using ImageMagick
-        convert /tmp/cover.jpeg -resize 128x128^ -gravity center -extent 128x128 \
-            \( +clone -threshold -1 -negate -fill white -draw "circle 64,64 64,0" \) \
-            -alpha off -compose CopyOpacity -composite /tmp/cover_waybar.png
-
-        echo "/tmp/cover_waybar.png"
-    else
-        echo "No active players found."
+    # Optional cleanup: remove old unused covers if fewer players now
+    existing=$(ls /tmp/cover_music*.png 2>/dev/null | wc -l)
+    if (( existing > index - 1 )); then
+        for extra in $(seq $index $existing); do
+            rm -f "/tmp/cover_music${extra}.png" 2>/dev/null
+        done
     fi
 
     sleep 2

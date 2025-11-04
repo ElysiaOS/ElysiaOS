@@ -16,7 +16,7 @@
 
 <div align="center">
 
-# 🌸 ElysiaOS Release 3.0 🌸
+# 🌸 ElysiaOS Release 4.0 🌸
 ### KEEP IN MIND THIS REPO MIGHT NOT BE ALWAYS UP TO DATE, The OS Installation repos are ALWAYS UP TO DATE
 ### You can now Download the entire OS and install with the ISO, you have to turn off Secure boot to install, if you use VM make sure you have at least 3D Acceleration enabled or IGPU.
 ### ElysiaOS Mirrors Downloads
@@ -26,42 +26,55 @@
 | `ElysiaOS-Release` | [Download](https://sourceforge.net/projects/elysiaos) | [Download](https://mega.nz/folder/HRtmBRqJ#-Jl7usp300in-OeiFOGm2g) |
 | `ElysiaOS-Beta` | [Download](https://sourceforge.net/projects/elysiaos) |  [Download](https://mega.nz/folder/HRtmBRqJ#-Jl7usp300in-OeiFOGm2g) |
 
-<h2><sub><img src="assets/signet.png" alt="Elysia Signet" width="25" height="25" /></sub> Light Theme</h2>
+<h2><sub><img src="assets/signet.png" alt="Elysia" width="25" height="25" /></sub> Elysia Theme</h2>
 <table align="center">
   <tr>
-    <td colspan="4"><img src="assets/light1.png"></td>
+    <td colspan="4"><img src="assets/elysia1.png"></td>
   </tr>
   <tr>
-    <td colspan="1"><img src="assets/light2.png"></td>
-    <td colspan="1"><img src="assets/light3.png"></td>
-    <td colspan="1" align="center"><img src="assets/light4.png"></td>
-    <td colspan="1" align="center"><img src="assets/grub.png"></td>
+    <td colspan="1"><img src="assets/elysia2.png"></td>
+    <td colspan="1"><img src="assets/elysia3.png"></td>
+    <td colspan="1" align="center"><img src="assets/elysia4.png"></td>
+    <td colspan="1" align="center"><img src="assets/elysia5.png"></td>
   </tr>
 </table>
 
-<h2><sub><img src="assets/signet2.png" alt="HoC Signet" width="25" height="25" /></sub> Dark Theme</h2>
+<h2><sub><img src="assets/signet2.png" alt="HoC" width="25" height="25" /></sub> Elysia-HoC Theme</h2>
 <table align="center">
   <tr>
-    <td colspan="4"><img src="assets/dark1.png"></td>
+    <td colspan="4"><img src="assets/hoc1.png"></td>
   </tr>
   <tr>
-    <td colspan="1"><img src="assets/dark2.png"></td>
-    <td colspan="1"><img src="assets/dark3.png"></td>
-    <td colspan="1" align="center"><img src="assets/dark4.png"></td>
-    <td colspan="1" align="center"><img src="assets/grub.png"></td>
+    <td colspan="1"><img src="assets/hoc2.png"></td>
+    <td colspan="1"><img src="assets/hoc3.png"></td>
+    <td colspan="1" align="center"><img src="assets/hoc4.png"></td>
+    <td colspan="1" align="center"><img src="assets/hoc5.png"></td>
   </tr>
 </table>
 
-<h2><sub><img src="assets/signet.png" alt="Elysia Signet" width="25" height="25" /></sub> New Features</h2>
+<h2><sub><img src="assets/signet3.png" alt="Cyrene" width="25" height="25" /></sub> Cyrene Theme</h2>
 <table align="center">
   <tr>
-    <td colspan="4"><img src="assets/setting1.png"></td>
+    <td colspan="4"><img src="assets/cyrene1.png"></td>
+  </tr>
+  <tr>
+    <td colspan="1"><img src="assets/cyrene2.png"></td>
+    <td colspan="1"><img src="assets/cyrene3.png"></td>
+    <td colspan="1" align="center"><img src="assets/cyrene4.png"></td>
+    <td colspan="1" align="center"><img src="assets/cyrene5.png"></td>
+  </tr>
+</table>
+
+<h2><sub><img src="assets/signet.png" alt="Elysia Signet" width="25" height="25" /></sub> Other Features</h2>
+<table align="center">
+  <tr>
+    <td colspan="4"><img src="assets/bootup.png"></td>
   </tr>
   <tr>
     <td colspan="1"><img src="assets/grub.png"></td>
-    <td colspan="1"><img src="assets/updater.png"></td>
-    <td colspan="1" align="center"><img src="assets/widgets.png"></td>
-    <td colspan="1" align="center"><img src="assets/bootup.png"></td>
+    <td colspan="1"><img src="assets/settings1.png"></td>
+    <td colspan="1" align="center"><img src="assets/settings.png"></td>
+    <td colspan="1" align="center"><img src="assets/updater.png"></td>
   </tr>
 </table>
 
@@ -101,7 +114,7 @@ chmod +x install.sh
 ```
 ### PACKAGES NEEDED 
 ```
-yay -S --noconfirm waybar-cava thunar hyprland starship rofi swaync discord krita google-chrome eww wlogout swww eww kitty kew swayosd btop fastfetch hyprcursor hyprgraphics hypridle hyprland-qt-support hyprlock hyprpicker hyprutils hyprswitch xdg-desktop-portal-hyprland xdg-desktop-portal-gnome gnome-text-editor xdg-desktop-portal xfce4-settings xfce4-taskmanager gsettings-desktop-schemas gsettings-system-schemas qt5-base qt5-multimedia qt5-svg qt5-wayland qt5ct qt6-base qt6-wayland qt6ct zip libzip file-roller unzip thunar-archive-plugin noto-fonts ttf-jetbrains-mono-nerd auto-cpufreq sddm-eucalyptus-drop swaylock-effects python python-cairo python-installer python-numpy python-pillow python-pip python-pipx python-psutil python-pyqt6 python-pyqt5 python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm visual-studio-code-bin sublime-text-4 grim xclip wl-clipboard libnotify clipnotify copyq gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification playerctl xkb-switch jq elysia-updater-elysiaos elysia-settings-elysiaos signet-workspaces-elysiaos elysia-welcome-elysiaos elysia-launcher sysinfo-elysiaos elysia-downloader
+yay -S --noconfirm thunar hyprland starship rofi discord krita google-chrome eww wlogout swww eww kitty kew btop fastfetch hyprcursor hyprgraphics hypridle hyprland-qt-support hyprlock hyprpicker hyprutils hyprswitch xdg-desktop-portal-hyprland xdg-desktop-portal-gnome gnome-text-editor xdg-desktop-portal xfce4-settings xfce4-taskmanager gsettings-desktop-schemas gsettings-system-schemas qt5-base qt5-multimedia qt5-svg qt5-wayland qt5ct qt6-base qt6-wayland qt6ct zip libzip file-roller unzip thunar-archive-plugin noto-fonts ttf-jetbrains-mono-nerd auto-cpufreq sddm-eucalyptus-drop swaylock-effects python python-cairo python-installer python-numpy python-pillow python-pip python-pipx python-psutil python-pyqt6 python-pyqt5 python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm visual-studio-code-bin sublime-text-4 grim xclip wl-clipboard libnotify clipnotify copyq gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification playerctl xkb-switch jq elysia-updater-elysiaos elysia-settings-elysiaos signet-workspaces-elysiaos elysia-welcome-elysiaos elysia-launcher sysinfo-elysiaos elysia-downloader elysiaos-bar elysia-widgets
 ```
 
 Make sure to add the elysiaos-repo to your pacman.conf before any installation
@@ -118,13 +131,13 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 | <kbd>Super</kbd> + <kbd>Q</kbd> | Close focused window|
 | <kbd>Super</kbd> + <kbd>SPACE</kbd> | Launch Application manager |
 | <kbd>Super</kbd> + <kbd>T</kbd> | Terminal |
-| <kbd>ALT</kbd> + <kbd>SPACE</kbd> | Change Language (Modify keyboard.sh for your wanted langs) |
+| <kbd>CTRL</kbd> + <kbd>SPACE</kbd> | Change Language |
 | <kbd>Super</kbd> + <kbd>L</kbd> | Lock your screen Hyprlock |
 | <kbd>Super</kbd> + <kbd>M</kbd> | Powermenu |
 | <kbd>Super</kbd> + <kbd>[0-9]</kbd> | Switch workspaces |
 | <kbd>Super</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd> | Workspaces viewer Hyprspace |
-| <kbd>Super</kbd> + <kbd>W</kbd> | Opens Swaync Notifaction |
-| <kbd>Super</kbd> + <kbd>TAB</kbd> | EWW Widget for system info |
+| <kbd>Super</kbd> + <kbd>W</kbd> | Opens Elysia Notifaction Widget |
+| <kbd>Super</kbd> + <kbd>TAB</kbd> | Elysia Widget for system info |
 | <kbd>Super</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd> | Launches Wallpapers menu |
 | <kbd>Super</kbd> + <kbd>SHIFT</kbd> + <kbd>M</kbd> | Exit Hyprland alltogether |
 | <kbd>Super</kbd> + <kbd>V</kbd> | Toggle float a window |
@@ -159,8 +172,8 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 - **WM**: [Hyprland](https://github.com/hyprwm/Hyprland)
 - **Wallpaper**: [swww](https://github.com/LGFae/swww)
 - **Applications Launcher**: Elysia App Launcher
-- **Top Bar**: [Waybar](https://github.com/Alexays/Waybar)
-- **Widgets**: [eww](https://github.com/elkowar/eww)
+- **Top Bar**: [My Own](https://github.com/ElysiaOS/elysiaos-bar)
+- **Widgets**: [My Own](https://github.com/ElysiaOS/elysiaos-widgets)
 - **Notifications**: [Swaync](https://github.com/ErikReider/SwayNotificationCenter)
 - **Terminal**: [kitty](https://github.com/kovidgoyal/kitty)
 - **Theme**: `Use the themes in .themes`
@@ -187,6 +200,7 @@ Server = https://raw.githubusercontent.com/ElysiaOS/$repo/refs/heads/main/$arch
 - [ ] Future Elysia AI Assistant
 - [x] Improve Dashboard (possibly moving from eww to my new featured GTK dashboard?)
 - [x] Adding more Themes support in future for every app
+- [x] Cyrene Theme added and Amphereous
 
 <h2><sub><img src="assets/eri.png" alt="Eri" width="25" height="25" /></sub> Special Thanks ♪</h2>
 

@@ -81,7 +81,7 @@ fi
 echo "[+] Installing packages with yay..."
 
 PACKAGES=(
-  waybar thunar hyprland starship
+  elysiaos-bar thunar hyprland starship
   pamixer wlogout swww kitty btop fastfetch
   hyprcursor hyprgraphics hypridle hyprland-qt-support
   hyprlock hyprpicker hyprutils hyprswitch
@@ -99,7 +99,7 @@ PACKAGES=(
   gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification
   python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm
   gpu-screen-recorder-notification playerctl xkb-switch brightnessctl
-  pipewire-pulse ttf-jetbrains-mono swaync-elysiaos granite
+  pipewire-pulse ttf-jetbrains-mono granite
   qimgv sxiv granite7 libhandy python-pypresence
   xorg-xhost polkit-gnome polkit-qt6 gnome-terminal
   ffmpegthumbnailer tumbler slurp bc coreutils dmenu
@@ -223,7 +223,6 @@ kitty +kitten themes --reload-in=all "Elysia"
 gsettings set org.gnome.desktop.interface gtk-theme "ElysiaOS"
 gsettings set org.gnome.desktop.interface icon-theme "ElysiaOS"
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
-systemctl --user disable swaync
 echo "[+] Updating fonts..."
 fc-cache -f -v
 
@@ -297,12 +296,35 @@ sudo mkinitcpio -p "$SELECTED_KERNEL"
 
 # === Copy Plymouth Theme ===
 echo "[+] Installing Plymouth theme..."
-sudo cp -r plymouth/themes/elysiaos-style2 /usr/share/plymouth/themes/
-sudo plymouth-set-default-theme -R elysiaos-style2
+sudo cp -r plymouth/themes /usr/share/plymouth/
+
+# Ask user to choose a theme
+echo ""
+echo "Please choose a Boot Animation theme:"
+echo "  1) elysiaos-style2"
+echo "  2) ampherous-theme2"
+echo ""
+read -p "Enter your choice (1 or 2): " THEME_CHOICE
+
+case $THEME_CHOICE in
+    1)
+        SELECTED_THEME="elysiaos-style2"
+        ;;
+    2)
+        SELECTED_THEME="ampherous-theme2"
+        ;;
+    *)
+        echo "[!] Invalid choice. Defaulting to elysiaos-style2"
+        SELECTED_THEME="elysiaos-style2"
+        ;;
+esac
+
+echo "[+] Setting theme to: $SELECTED_THEME"
+sudo plymouth-set-default-theme -R "$SELECTED_THEME"
 
 # === Ensure /etc/plymouth/plymouthd.conf is correct ===
 PLYMOUTH_CONF="/etc/plymouth/plymouthd.conf"
-EXPECTED_THEME="Theme=elysiaos-style2"
+EXPECTED_THEME="Theme=$SELECTED_THEME"
 EXPECTED_DELAY="ShowDelay=2"
 
 echo "[+] Verifying $PLYMOUTH_CONF..."

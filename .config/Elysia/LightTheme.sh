@@ -1,9 +1,5 @@
 #!/bin/bash
 
-WAYBAR_SCRIPT="$HOME/.config/hypr/Scripts/waybar-reload.sh"
-SWAYNC_SCRIPT="$HOME/.config/swaync/swaync-reload.sh"
-WAYBAR_DARK_STYLE="$HOME/.config/waybar/Dark/style.css"
-SWAYNC_DARK_STYLE="$HOME/.config/swaync/Dark/style.css"
 THEME_STATE_DIR="$HOME/.config/hypr"
 LIGHT_FILE="$THEME_STATE_DIR/Light.txt"
 DARK_FILE="$THEME_STATE_DIR/Dark.txt"
@@ -31,18 +27,16 @@ apply_light_theme() {
 
     # Remove any previous theme state
     rm -f "$DARK_FILE"
-    touch "$LIGHT_FILE"
+
+    # Create the Light file with a random name
+    choice=$(shuf -e "ely" "cyrene" -n 1)
+    echo "$choice" > "$LIGHT_FILE"
 
     ~/.config/Elysia/wallpaper/Light/l-wallpaper.sh
 
-    # Reload Waybar after saving state
-    "$WAYBAR_SCRIPT"
-
-    # Kill and restart swaync
-    "$SWAYNC_SCRIPT"
     pkill visualizer && "$VISUALIZER_ELY"
 
-    echo "Light theme applied."
+    echo "Light theme applied. ($choice)"
 }
 
 

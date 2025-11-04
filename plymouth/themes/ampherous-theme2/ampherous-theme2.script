@@ -1,0 +1,376 @@
+/*********************************************************************************
+ * Theme Name: ampherous-theme2                                                  *
+ * Version: 1.0                                                                  *
+ * Description: Port of the original Debian 5 boot splash for Plymouth           *
+ * Author: DUKE93                                                                *
+ * Date: 22.11.2021                                                              *
+ * License: This program is free software: you can redistribute it and/or modify *
+ * it under the terms of the GNU General Public License as published by          *
+ * the Free Software Foundation, either version 3 of the License, or             *
+ * (at your option) any later version.                                           *
+ *                                                                               *
+ * This program is distributed in the hope that it will be useful,               *
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of                *
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                 *
+ * GNU General Public License for more details.                                  *
+ *                                                                               *
+ * You should have received a copy of the GNU General Public License             *
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.         *
+ *********************************************************************************/
+
+############################### BACKGROUND #####################################
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+screen_x = Window.GetX();
+screen_y = Window.GetY();
+background_image = Image("BACKGROUND.PNG");
+ratio = screen_height / screen_width;
+background_ratio = background_image.GetHeight() / background_image.GetWidth();
+factor = 0;
+
+if (ratio > background_ratio) {
+
+	factor = screen_height / background_image.GetHeight();
+
+}
+else {
+	
+	factor = screen_width / background_image.GetWidth();
+	
+}
+scaled = background_image.Scale(background_image.GetWidth() * factor, background_image.GetHeight() * factor);
+background_sprite = Sprite(scaled);
+background_sprite.SetX(screen_x + screen_width / 2 - scaled.GetWidth() / 2);
+background_sprite.SetY(screen_y + screen_height / 2 - scaled.GetHeight() / 2);
+//*******************// растянуть на весь экран
+/*background.image = background_image.Scale(Window.GetWidth() , Window.GetHeight());
+background.sprite = SpriteNew();
+background.sprite.SetImage(background.image);
+background.sprite.SetPosition(Window.GetX(), Window.GetY(), 1);*/
+###################################################################################
+################################## BACKDROP #######################################
+backdrop = Image("LOGO.PNG");
+boot = Sprite(backdrop);
+boot.SetOpacity(1);
+boot_x = Window.GetWidth() / 2  -  backdrop.GetWidth() / 2; 
+boot_y = Window.GetHeight() / 2  -  backdrop.GetHeight() / 2;
+boot.SetPosition(boot_x, boot_y, 1);
+###################################################################################
+################################# PROGRESS BAR ####################################
+progress_bar.original_image = Image("THROBBER_FORE.PNG");
+progress_bar.sprite = Sprite();
+
+progress_bar.x = boot_x + backdrop.GetWidth()/2 - progress_bar.original_image.GetWidth()/2;
+//progress_bar.x = boot_x + backdrop.GetWidth()/2 - progress_bar.original_image.GetWidth()/2;
+progress_bar.y = boot_y + 439;
+progress_bar.sprite.SetPosition(progress_bar.x, progress_bar.y, 6);
+
+fun progress_callback (duration, progress)
+  {
+    if (progress_bar.image.GetWidth () != Math.Int (320 * progress))
+      {
+        progress_bar.image = progress_bar.original_image.Crop(0, 0, 320 * progress, progress_bar.original_image.GetHeight());
+        progress_bar.sprite.SetImage (progress_bar.image);
+      }
+  }
+
+progress_box.image = Image("THROBBER_BACK.PNG");
+progress_box.sprite = Sprite(progress_box.image);
+
+//progress_box.x = boot_x + 120;
+progress_box.x = boot_x + backdrop.GetWidth()/2 - progress_box.image.GetWidth()/2;
+progress_box.y = boot_y + 439;
+progress_box.sprite.SetPosition(progress_box.x, progress_box.y, 5);
+
+Plymouth.SetBootProgressFunction(progress_callback);
+###################################################################################
+################################## PROGRESS FADE ##################################
+screen_width = Window.GetWidth(0);
+screen_height = Window.GetHeight(0);
+
+logotype_image = Image("");
+progress_meter_image = Image("");
+progress_fade_image = Image("PROGRESS_FADE.PNG");
+fsck_progress_meter_image = Image("");
+fsck_progress_fade_image = Image("");
+
+progress_meter_sprite = Sprite(progress_meter_image);
+progress_fade_sprite = Sprite(progress_fade_image);
+
+counter = 0;
+
+//fade_pos_x = (screen_width / 2) - (progress_meter_image.GetWidth() / 2);
+fade_dir = 0; // 0 = right, 1 = left
+
+//logotype_sprite.SetPosition((screen_width / 2) - (logotype_image.GetWidth() / 2), (screen_height / 2) - (logotype_image.GetHeight() / 2));
+//progress_meter_sprite.SetPosition((screen_width / 2) - (progress_meter_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2));
+//progress_meter.x = boot_x + 523;
+//progress_bar.x = boot_x + backdrop.GetWidth()/2 - progress_bar.original_image.GetWidth()/2;
+progress_meter.x = boot_x + backdrop.GetWidth()/2 - progress_meter_image.GetWidth()/2;
+progress_meter.y = boot_y + 600;
+progress_meter_sprite.SetPosition(progress_meter.x, progress_meter.y, 6);
+
+fun refreshHandler() {
+
+    //mode = Plymouth.GetMode ();
+
+    if (status == "normal" && Plymouth.GetMode() == "boot")
+      {
+        progress_fade_sprite.SetOpacity (0); // полностью прозрачный
+        progress_bar.sprite.SetOpacity (1);
+      }
+
+    else 
+      {
+        progress_fade_sprite.SetOpacity (1);
+        progress_bar.sprite.SetOpacity (0);
+      }
+//progress_fade_sprite.SetPosition(fade_pos_x + counter, (screen_height / 2) + (logotype_image.GetHeight() / 2) - 2);
+progress_fade.x = boot_x + 240;
+progress_fade.y = boot_y + 440;
+progress_fade_sprite.SetPosition(counter + progress_fade.x, progress_fade.y, 6);
+	if (fade_dir == 0) {
+		
+		counter++;
+		
+		if (counter >= 264) {
+			
+			fade_dir = 1;
+		
+		}
+		
+	}
+	else {
+		
+		counter--;
+		
+		if (counter <= 0) {
+			
+			fade_dir = 0;
+		
+		}
+		
+	}
+	
+	if ((fsck_running == 1) && (fsck_done_fading == 0)) {
+		
+		
+		fsck_progress_meter_sprite.SetOpacity(fsck_fade_in_counter);
+		fsck_progress_fade_sprite.SetOpacity(fsck_fade_in_counter);
+		
+		if (fsck_fade_in_counter < 1) {
+		
+			fsck_fade_in_counter+= 0.025;
+		
+		}
+		else {
+			
+			fsck_done_fading = 1;
+			
+		}
+		
+	}
+	
+}
+
+Plymouth.SetRefreshFunction (refreshHandler);
+################################################################################
+############################### DIALOGUE #######################################
+status = "normal";
+
+fun dialog_setup()
+  {
+    local.box;
+    local.lock;
+    local.entry;
+    local.text;
+    
+    box.image = Image("BOX.PNG");
+    lock.image = Image("LOCK.PNG");
+    entry.image = Image("ENTRY.PNG");
+
+    passwordfont = "Sans Bold 11";
+    password_text = "Password:";
+    
+    box.sprite = Sprite(box.image);
+    box.x = Window.GetWidth()  / 2 - box.image.GetWidth ()/2;
+    box.y = Window.GetHeight() / 1.15 - box.image.GetHeight()/2;
+    box.z = 100;
+    box.sprite.SetPosition(box.x, box.y, box.z);
+    
+    lock.sprite = Sprite(lock.image);
+    lock.x = box.x + 52;
+    lock.y = box.y + 68;
+    lock.z = box.z + 1;
+    lock.sprite.SetPosition(lock.x, lock.y, lock.z);
+    
+    entry.sprite = Sprite(entry.image);
+    entry.x = box.x + 51;
+    entry.y = box.y + 115;
+    entry.z = box.z + 1;
+    entry.sprite.SetPosition(entry.x, entry.y, entry.z);
+    
+    text_pass.image = Image.Text (password_text,0.0,0.0,0.0,1, passwordfont);
+    text_pass.sprite = Sprite(text_pass.image);
+    //text.x = box.x + box.image.GetWidth()/2 - (text.image.GetWidth() + entry.image.GetWidth()) / 2; // Booting... X        
+    //text.y = box.y + box.image.GetHeight()/2 - text.image.GetHeight()/2;
+    text_pass.x = box.x + 90;
+    //text_pass.x = Window.GetWidth() / 2 - text_pass.image.GetWidth() / 2;       
+    text_pass.y = box.y + 79;
+    text_pass.z = box.z + 1;
+    text_pass.sprite.SetPosition(text_pass.x, text_pass.y, text_pass.z);
+
+    prompt_sprite = SpriteNew();
+    //prompt_sprite.x = Window.GetWidth()  / 2 - box.image.GetWidth () / 2.9;
+    //prompt_sprite.y = box.y + 1;
+    prompt_sprite.SetPosition(prompt_sprite.x, prompt_sprite.y, prompt_sprite.z);
+    prompt_sprite.SetPosition(box.x + 95, box.y + 41, box.z);
+
+    global.dialog.box = box;
+    global.dialog.lock = lock;
+    global.dialog.entry = entry;
+    global.dialog.text = text_pass;
+    global.dialog.bullet_image = Image("BULLET.PNG");
+    global.dialog.prompt_sprite = prompt_sprite;
+    dialog_opacity (1);
+  }
+    
+fun dialog_opacity(opacity)
+  {
+    dialog.box.sprite.SetOpacity (opacity);
+    dialog.lock.sprite.SetOpacity (opacity);
+    dialog.entry.sprite.SetOpacity (opacity);
+    dialog.text.sprite.SetOpacity (opacity);
+    dialog.prompt_sprite.SetOpacity(opacity);
+    for (index = 0; dialog.bullet[index]; index++)
+      {
+        dialog.bullet[index].sprite.SetOpacity(opacity);
+      }
+  }
+
+fun display_normal_callback ()
+  {
+    global.status = "normal";
+    if (global.dialog)
+      dialog_opacity (0);
+  }
+
+fun display_password_callback (prompt, bullets)
+  {
+    global.status = "password";
+    if (!global.dialog)
+	dialog_setup();
+    else
+	dialog_opacity(1);
+    dialog.prompt_sprite.SetImage(Image.Text(prompt, 0.0, 0.0, 0.0));
+    for (index = 0; dialog.bullet[index] || index < bullets; index++)
+      {
+        if (!dialog.bullet[index])
+          {
+            dialog.bullet[index].sprite = Sprite(dialog.bullet_image);
+            dialog.bullet[index].x = dialog.entry.x + index * dialog.bullet_image.GetWidth() / 0.8 - dialog.entry.image.GetHeight() * -0.2; // отступ точки от точки и от поля (modified)
+            dialog.bullet[index].y = dialog.entry.y + dialog.entry.image.GetHeight() / 2 - dialog.bullet_image.GetHeight() / 2;
+            dialog.bullet[index].z = dialog.entry.z + 1;
+            dialog.bullet[index].sprite.SetPosition(dialog.bullet[index].x, dialog.bullet[index].y, dialog.bullet[index].z);
+          }
+        if (index < bullets)
+          dialog.bullet[index].sprite.SetOpacity(1);
+        else
+          dialog.bullet[index].sprite.SetOpacity(0);
+      }
+  }
+
+fun display_message_callback (prompt)
+  {
+  
+prompt = Image.Text(prompt,0.0,0.0,0.0,1);
+sprite_prompt.SetImage(prompt);
+sprite_prompt.SetPosition(Window.GetX() + (Window.GetWidth() - prompt.GetWidth()) / 2, Window.GetY() + Window.GetHeight() * 0.10, 2);
+  }
+
+Plymouth.SetDisplayNormalFunction(display_normal_callback);
+Plymouth.SetDisplayPasswordFunction(display_password_callback);
+Plymouth.SetMessageFunction(display_message_callback);
+################################################################################
+##################################### LOG ######################################
+NUM_SCROLL_LINES=1; //количество строк лога
+LINE_WIDTH=9999; //ширина строк лога
+
+message_sprite=SpriteNew();
+
+fun message_callback (prompt) {
+ message = Image.Text(prompt, 0.0, 0.0, 0.0);
+ message_sprite.SetImage(message);
+// message_sprite.SetPosition(Window.GetX() + (Window.GetWidth() - message.GetWidth()) / 2, Window.GetY() + Window.GetHeight() * 0.93, 9);
+ message_sprite.SetPosition(Window.GetX() + (Window.GetWidth() - message.GetWidth()) / 2, Window.GetY() + Window.GetHeight() * 0.95, 9);
+ message_sprite.SetOpacity(1);
+}
+
+Plymouth.SetMessageFunction(message_callback);
+
+
+// Initialising text images and their positions
+// 20 is the height (including line spacing) of each line
+for (i=0; i < NUM_SCROLL_LINES; i++) {
+  lines[i]= Image.Text("", 0.0, 0.0, 0.0); //цвет строк
+  message_sprite[i] = SpriteNew();
+  //message_sprite[i].SetPosition(screen_width / 5, (screen_height / 1.50) + (i * 16), 9);
+  message_sprite[i].SetPosition(15, (screen_height / 1.03) + (i * 17), 9);
+}                                    //высота строк           //отступ строк
+
+
+fun StringLength(string) {
+
+  index = 0;
+  str = String(string);
+  while(str.CharAt(index)) index++;
+  return index;
+}
+
+
+
+fun scroll_message_callback(text) {
+
+//  Truncate the message if too long
+   if (StringLength(text) > LINE_WIDTH) {
+     text = text.SubString(0, LINE_WIDTH - 3);
+     text += "...";
+   }
+
+//  Shift message one up
+   for (i = 0; i < NUM_SCROLL_LINES - 1; i++) {
+     lines[i] = lines[i+1];
+   }
+
+//  Create the image for the latest message
+   lines[i] = Image.Text(text, 0.0, 0.0, 0.0);
+
+//  Re-positioning the text images
+   for (i = 0; i < NUM_SCROLL_LINES; i++) {
+     message_sprite[i].SetImage(lines[i]);
+   }
+}
+
+Plymouth.SetUpdateStatusFunction(scroll_message_callback);
+##################################### LOG ######################################
+/*message_sprite=SpriteNew();
+
+fun message_callback (prompt) {
+ message = Image.Text(prompt, 0.0, 0.0, 0.0);
+ message_sprite.SetImage(message);
+ message_sprite.SetPosition(Window.GetX() + (Window.GetWidth() - message.GetWidth()) / 2, Window.GetY() + Window.GetHeight() * 0.95, 9);
+ message_sprite.SetOpacity(1);
+}
+
+Plymouth.SetMessageFunction(message_callback);
+Plymouth.SetUpdateStatusFunction(scroll_message_callback);*/
+################################################################################
+############################### QUIT ###########################################
+fun quit_callback ()
+{
+  progress_fade_sprite.SetOpacity (1);
+  progress_bar.sprite.SetOpacity (0);
+}
+
+Plymouth.SetQuitFunction(quit_callback);  
+################################################################################
