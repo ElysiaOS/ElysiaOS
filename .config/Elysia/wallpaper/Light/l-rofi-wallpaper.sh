@@ -45,7 +45,7 @@ wall_selection=$(find "${wall_dir}" -maxdepth 1 -type f \( -iname "*.jpg" -o -in
 
 # Set the wallpaper
 [[ -n "$wall_selection" ]] || exit 1
-swww img --transition-duration 2 --transition-type grow --transition-step 45 --transition-fps 30 "${wall_dir}/${wall_selection}"
+awww img --transition-duration 2 --transition-type grow --transition-step 45 --transition-fps 30 "${wall_dir}/${wall_selection}"
 
 # Send a notification with the wallpaper name and matching icon
 icon_path="${icon_dir}/${wall_selection}"  # Assuming icons match wallpaper names
