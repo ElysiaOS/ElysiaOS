@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 # === Confirm with Y/N ===
 if [ -t 0 ]; then
@@ -12,8 +12,7 @@ if [ -t 0 ]; then
     fi
 else
     # Force prompt by opening /dev/tty (the actual terminal)
-    if confirm=$(</dev/tty read -rp "Are you sure you want to run ElysiaOS installation (this will modify home directory folder before running make sure you backup important stuff or reading script)...? [y/N]: " confirm && echo "$confirm"); then
-        if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
+    if confirm=$(</dev/tty read -rp "Are you sure you want to run ElysiaOS installation (this will modify home directory folder before running make sure you backup important stuff or reading script)...? [y/N]: " confirm && echo "$confirm"); then        if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
             echo "Aborted by user."
             exit 1
         fi
@@ -78,13 +77,13 @@ else
 fi
 
 # === Package Install Section ===
-echo "[+] Installing packages with yay..."
+echo "[+] Test packages..."
 
-PACKAGES=(
-  elysiaos-bar thunar hyprland starship
-  pamixer wlogout swww kitty btop fastfetch
-  hyprcursor hyprgraphics hypridle hyprland-qt-support
-  hyprlock hyprpicker hyprutils hyprswitch
+PACKAGES="
+  elysiaos-bar thunar starship
+  pamixer wlogout awww kitty btop fastfetch
+  hyprcursor hypridle hyprland-qt-support
+  hyprpicker hyprswitch
   xdg-desktop-portal-hyprland xdg-desktop-portal-gnome gnome-text-editor
   xdg-desktop-portal xfce4-settings xfce4-taskmanager
   gsettings-desktop-schemas gsettings-system-schemas
@@ -97,7 +96,7 @@ PACKAGES=(
   python-cairo python-installer python-numpy python-pillow python-pip
   python-psutil python-pyqt6 python-pyqt5 ttf-jetbrains-mono-nerd
   gpu-screen-recorder gpu-screen-recorder-ui gpu-screen-recorder-notification
-  python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip python-tqdm
+  python-pyqt5-webengine python-pyqt6-sip python-pyqt5-sip mkinitcpio python-tqdm
   gpu-screen-recorder-notification playerctl xkb-switch brightnessctl
   pipewire-pulse ttf-jetbrains-mono granite
   qimgv sxiv granite7 libhandy python-pypresence
@@ -112,13 +111,69 @@ PACKAGES=(
   signet-workspaces-elysiaos sysinfo-elysiaos
   elysia-launcher elysia-downloader elysia-welcome-elysiaos
   elysia-widgets
-)
+"
 
-yay -Syyy --noconfirm --needed "${PACKAGES[@]}" || {
-  echo "[!] Conflict detected. Retrying with overwrite..."
-  yay -Syyy --noconfirm --needed --overwrite '*' "${PACKAGES[@]}"
+VALID_PKGS=""
+for pkg in $PACKAGES; do
+  if pacman -Si "$pkg" &>/dev/null; then
+    VALID_PKGS="$VALID_PKGS $pkg"
+  else
+    echo "Skipping missing package: $pkg"
+  fi
+done
+
+echo "Result: $VALID_PKGS"
+echo "Please take note of the missing packages to install from the AUR or manually later."
+
+read -rp "Proceed with installation? [y/N]: " confirm
+
+if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
+  echo "Aborted by user"
+  exit 1
+fi
+
+sudo pacman -S --needed $VALID_PKGS
+
+# ============================================================
+# Hyprland 0.56.2 (pinned from Arch Linux Archive)
+# ============================================================
+
+install_hyprland_056() {
+  local packages=(
+    "https://archive.archlinux.org/packages/h/hyprland/hyprland-0.56.2-4-x86_64.pkg.tar.zst"
+    "https://archive.archlinux.org/packages/a/aquamarine/aquamarine-0.15.1-1-x86_64.pkg.tar.zst"
+    "https://archive.archlinux.org/packages/h/hyprgraphics/hyprgraphics-0.5.1-4-x86_64.pkg.tar.zst"
+    "https://archive.archlinux.org/packages/h/hyprtoolkit/hyprtoolkit-0.5.4-5-x86_64.pkg.tar.zst"
+    "https://archive.archlinux.org/packages/h/hyprland-guiutils/hyprland-guiutils-0.2.2-3-x86_64.pkg.tar.zst"
+    "https://archive.archlinux.org/packages/h/hyprlock/hyprlock-0.9.6-3-x86_64.pkg.tar.zst"
+  )
+
+  echo "==> Installing pinned Hyprland 0.56.2 stack..."
+  sudo pacman -U --needed --noconfirm "${packages[@]}"
+
+  # Lock them so normal -Syu never upgrades them
+  local ignore_list="hyprland aquamarine hyprgraphics hyprtoolkit hyprland-guiutils hyprlock"
+
+  if grep -qE '^\s*IgnorePkg\s*=' /etc/pacman.conf; then
+    # Only add the packages that are not already listed
+    for pkg in $ignore_list; do
+      if ! grep -qE "IgnorePkg\s*=.*\b${pkg}\b" /etc/pacman.conf; then
+        sudo sed -i "s/^\s*IgnorePkg\s*=.*/& ${pkg}/" /etc/pacman.conf
+      fi
+    done
+  else
+    sudo sed -i "/^\[options\]/a IgnorePkg = ${ignore_list}" /etc/pacman.conf
+  fi
+
+  echo "==> Hyprland 0.56.2 locked"
 }
 
+# Call it somewhere in your main flow
+install_hyprland_056
+
+echo "Floorp Browser installation skipped. Recommended to install via Flatpak."
+
+: << 'EOF'
 # === Install Floorp Browser ===
 echo "[+] Downloading Floorp browser..."
 
@@ -150,10 +205,11 @@ else
   exit 1
 fi
 
+
 # Clean up archive
 rm -f "$FLOORP_ARCHIVE"
 sudo ln -sf /opt/floorp/floorp /usr/bin/floorp
-
+EOF
 
 prompt_confirm() {
     local prompt="$1"
@@ -320,7 +376,7 @@ case $THEME_CHOICE in
 esac
 
 echo "[+] Setting theme to: $SELECTED_THEME"
-sudo plymouth-set-default-theme -R "$SELECTED_THEME"
+sudo plymouth-set-default-theme "$SELECTED_THEME"
 
 # === Ensure /etc/plymouth/plymouthd.conf is correct ===
 PLYMOUTH_CONF="/etc/plymouth/plymouthd.conf"
@@ -367,6 +423,8 @@ fi
 # 2. Enable SDDM as the display manager
 if ! systemctl is-enabled sddm &>/dev/null; then
     echo "[+] Enabling SDDM as default display manager..."
+    DM_SERVICE=$(basename "$(readlink -f /etc/systemd/system/display-manager.service)")
+    sudo systemctl disable "$DM_SERVICE" 2>/dev/null
     sudo systemctl enable sddm
 else
     echo "[✓] SDDM is already enabled."
@@ -426,6 +484,10 @@ sudo sed -i "s|^GRUB_CMDLINE_LINUX_DEFAULT=.*|$GRUB_CMDLINE|" "$GRUB_FILE"
 # === Regenerate grub.cfg ===
 echo "[+] Regenerating GRUB config..."
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# === Install C++/JSON shared library version 26 ===
+echo "[+] Installing shared library libjsoncpp.so.26..."
+sudo bash ./.config/install-jsoncpp26.sh
 
 # === Cleanup: Remove unneeded setup files from home ===
 echo "[+] Cleaning up files from home directory..."
