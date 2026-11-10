@@ -15,7 +15,7 @@ send_notification() {
 
 # Function to fetch remote notify text
 send_remote_notification() {
-    local url="https://www.elysiaos.live/notify"
+    local url="https://elysiaos.vercel.app/notify"
     local notify_text
     notify_text=$(curl -fsSL "$url")
 
@@ -44,7 +44,7 @@ fi
 # Check if the INI file exists
 if [[ ! -f "$INI_FILE" ]]; then
     # If no INI file, prompt for a birthday
-    echo "No birthday set. Please provide a birthday in MM/DD format."
+    kitty --class theme_picker -e ~/.config/Elysia/bday/bday_set.sh
     exit 1
 else
     # Read the birthday date from the INI file

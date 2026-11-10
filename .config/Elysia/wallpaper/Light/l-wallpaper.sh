@@ -11,8 +11,8 @@ if [ -z "$selected_wallpaper" ]; then
     exit 1
 fi
 
-# Set the wallpaper with swww
-swww img --transition-duration 2 --transition-type grow --transition-step 45 --transition-fps 30 "$selected_wallpaper"
+# Set the wallpaper with awww
+awww img --transition-duration 2 --transition-type grow --transition-step 45 --transition-fps 30 "$selected_wallpaper"
 
 # Extract the wallpaper filename
 wallpaper_name=$(basename "$selected_wallpaper")

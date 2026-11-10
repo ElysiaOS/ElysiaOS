@@ -26,7 +26,7 @@ apply_light_theme() {
     # Remove Dark theme state
     rm -f "$DARK_FILE"
 
-    # ALWAYS write "cyrene" to Light.txt
+    # write "ely" to Light.txt
     echo "ely" > "$LIGHT_FILE"
 
     # Set Light wallpaper
@@ -34,7 +34,7 @@ apply_light_theme() {
 
     pkill visualizer && "$VISUALIZER_ELY"
 
-    echo "Light theme applied. (cyrene)"
+    echo "Light theme applied. (ely)"
 }
 
 apply_light_theme
